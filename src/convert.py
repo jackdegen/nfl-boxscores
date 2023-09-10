@@ -7,16 +7,16 @@ pfr_standard: dict[[str], str] = {
     'sfo': 'sf', # 49ers
     'clt': 'ind', # Colts
     'htx': 'hou', # Texans
-    'nwe': 'ne',
-    'rav': 'bal',
-    'kan': 'kc',
-    'gnb': 'gb',
-    'crd': 'ari',
-    'oti': 'ten',
-    'rai': 'lv',
-    'sdg': 'lac',
-    'tam': 'tb',
+    'nwe': 'ne', # Patriots
+    'rav': 'bal', # Ravens
+    'kan': 'kc', # Chiefs
+    'gnb': 'gb', # Packers
+    'crd': 'ari', # Cardinals
+    'oti': 'ten', # Titans
+    'rai': 'lv', # Raiders
+    'sdg': 'lac', # Chargers
+    'tam': 'tb', # Buccaneers
 }
 
 def initials(team):
-    return pfr_standard.get(team, team)
+    return pfr_standard.get(team.lower(), team).upper()
