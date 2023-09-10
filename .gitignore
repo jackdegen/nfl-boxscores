@@ -1,3 +1,9 @@
+# Don't add any of the actual data to GitHub, but code automatically creates
+# folder structure
+boxscores/
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
