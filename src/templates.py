@@ -4,6 +4,7 @@ import pandas as pd
 def season_date_list(season):
     """
     Returns list of dates in %Y%m%d format for all dates in regular season
+    Not in use currently
     """
     
     # Just going to do regular season for now
@@ -29,6 +30,7 @@ def boxscore_url(date, hometeam):
     Parameters date string in %Y%m%d format and hometeam
     Returns webpage for given boxscore
     Takes form: {parent_url}/boxscores/{date}0{hometeam}.htm --> Not sure why extra 0 at end
+    Figured out better way --> Not in use right now
     """
     return f'https://www.pro-football-reference.com/boxscores/{date}0{hometeam}.htm'
     

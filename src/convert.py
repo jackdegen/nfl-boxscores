@@ -14,6 +14,7 @@ pfr_standard: dict[[str], str] = {
     'crd': 'ari', # Cardinals
     'oti': 'ten', # Titans
     'rai': 'lv', # Raiders
+    'lvr': 'lv', # Raiders 2
     'sdg': 'lac', # Chargers
     'tam': 'tb', # Buccaneers
 }

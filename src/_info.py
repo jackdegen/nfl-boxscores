@@ -1,4 +1,5 @@
-DATA_STATS = [
+# Column labels on pro-football-reference
+DATA_COLUMNS = [
     'player', # within href
     'team',
     'pass_cmp',
