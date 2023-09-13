@@ -82,6 +82,8 @@ class Filing:
             
         # Source of positions will come from contest-files
         # Going to use FanDuel because little cleaner in general (no '/FLEX' & more standard column names/organization)
+        # Need to figure out how to deal with fact that source is not public outside local machine
+        # Also issues with the fact only have stuff for last two seasons
         self.positions_source: str = os.path.join(self.season_dir, 'contest-files', 'fanduel', 'main-slate')
 
         # Reduce overhead by reading only standard slates, not late or thanksgiving 

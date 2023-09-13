@@ -1,5 +1,6 @@
 import requests
 import time
+import glob
 
 import pandas as pd
 pd.set_option('display.max_columns', 100)
@@ -72,7 +73,10 @@ class Scraper:
                 'html.parser'
             )
 
+            # try:
             stat_table = game_soup.find_all('table', id='player_offense')[0]
+            # except IndexError:
+            #     print(game_url)
     
             # Different for names because th not td
             names = [
@@ -90,14 +94,11 @@ class Scraper:
             fix_rating = lambda rating_str: float(rating_str) if len(rating_str) else 0.0
             teams = tuple([convert_initials(team) for team in set(table_data['team'])])
             get_opp = lambda team_: teams[1] if team_ == teams[0] else teams[0]
-
-            
-            
             
             table_data['pass_rating'] = [ fix_rating(rating) for rating in table_data['pass_rating'] ]
             table_data['team'] = [ convert_initials(team) for team in table_data['team'] ]
             table_data['opp'] = [ get_opp(team) for team in table_data['team'] ]
-            table_data['week'] = [ week for name in names ]
+            table_data['week'] = [week] * len(names)
             
             # Defaults to WR, name already standardized
             table_data['pos'] = [ self.lookup_position.get(name, 'WR') for name in names ]
@@ -115,8 +116,20 @@ class Scraper:
         """
 
         print(f'Beginning scraping for {self.season} season\n')
-        
-        # Add check for if already done
+
+        # Dont want to scrape data already saved (assuming previous data formatted correctly)
+        if self.year == 2023:
+            # .../../team1-team2-week#.csv --> Want just #
+            extract_week = lambda fname: int(fname.split('/')[-1].split('.')[0].split('-')[2].replace('week', ''))
+            boxscore_weeks = set([ extract_week(file) for file in glob.glob(self.filing.boxscores_dir + '/*.csv') ])
+
+            self.week_pages = { week: page for week, page in self.week_pages.items() if week not in boxscore_weeks }
+
+
+        if not len(self.week_pages):
+            print(f'Boxscores for season {self.season} already up to date\n')
+            return
+            
         for weeknum, url in tqdm(self.week_pages.items()):
             print(f'Scraping boxscores for Week {weeknum}')
             self.get_week_boxscores(weeknum, url)
