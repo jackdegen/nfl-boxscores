@@ -2,6 +2,8 @@
 # folder structure
 data/
 
+# Don't want scrap notebook
+scrap.ipynb
 
 
 # Byte-compiled / optimized / DLL files
