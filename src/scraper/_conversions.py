@@ -19,5 +19,5 @@ pfr_standard: dict[[str], str] = {
     'tam': 'tb', # Buccaneers
 }
 
-def initials(team):
+def convert_initials(team):
     return pfr_standard.get(team.lower(), team).upper()
