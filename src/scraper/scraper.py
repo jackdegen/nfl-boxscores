@@ -11,7 +11,10 @@ from tqdm.notebook import tqdm
 # Local code
 from filing import Filing
 
-from ._conversions import convert_initials
+from ._conversions import (
+    convert_teamname,
+    standardize_initials,
+)
 from ._info import DATA_COLUMNS
 from ._templates import week_url
 
@@ -73,10 +76,12 @@ class Scraper:
                 'html.parser'
             )
 
-            # try:
             stat_table = game_soup.find_all('table', id='player_offense')[0]
-            # except IndexError:
-            #     print(game_url)
+
+            scorebox = game_soup.find_all('div', class_='scorebox')[0]
+            
+            away_team, home_team = tuple([convert_teamname(scorebox.find_all('strong')[i].get_text().replace('\n', '')) for i in (0,2)])
+            away_score, home_score =  tuple([int(score.get_text().replace('\n','')) for score in scorebox.find_all('div', class_='scores')])
     
             # Different for names because th not td
             names = [
@@ -92,12 +97,16 @@ class Scraper:
             
             # Will do rest of cleaning later on, just wanted to not have any NA values in saved files and have standardized names, teams, and positions
             fix_rating = lambda rating_str: float(rating_str) if len(rating_str) else 0.0
-            teams = tuple([convert_initials(team) for team in set(table_data['team'])])
+            teams = tuple([standardize_initials(team) for team in set(table_data['team'])])
+            
             get_opp = lambda team_: teams[1] if team_ == teams[0] else teams[0]
+            get_score = lambda team_: home_score if team_ == home_team else away_score
             
             table_data['pass_rating'] = [ fix_rating(rating) for rating in table_data['pass_rating'] ]
-            table_data['team'] = [ convert_initials(team) for team in table_data['team'] ]
+            table_data['team'] = [ standardize_initials(team) for team in table_data['team'] ]
             table_data['opp'] = [ get_opp(team) for team in table_data['team'] ]
+            table_data['home'] = [ int(team == home_team) for team in table_data['team'] ]
+            table_data['score'] = [ get_score(team) for team in table_data['team'] ]
             table_data['week'] = [week] * len(names)
             
             # Defaults to WR, name already standardized
@@ -118,6 +127,7 @@ class Scraper:
         print(f'Beginning scraping for {self.season} season\n')
 
         # Dont want to scrape data already saved (assuming previous data formatted correctly)
+        # This will not get games if whole week of games not complete (only do on tuesday-wednesday)
         if self.year == 2023:
             # .../../team1-team2-week#.csv --> Want just #
             extract_week = lambda fname: int(fname.split('/')[-1].split('.')[0].split('-')[2].replace('week', ''))
