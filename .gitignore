@@ -3,6 +3,9 @@
 boxscores/
 *-raw.csv # refers to bigger nfl data files
 
+# Hiding past performance optimizer for now
+past-performances.ipynb
+
 # Don't want scrap notebook
 scrap.ipynb
 
