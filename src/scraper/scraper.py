@@ -101,12 +101,14 @@ class Scraper:
             
             get_opp = lambda team_: teams[1] if team_ == teams[0] else teams[0]
             get_score = lambda team_: home_score if team_ == home_team else away_score
+            get_opp_score = lambda team_: away_score if team_ == home_team else home_score
             
             table_data['pass_rating'] = [ fix_rating(rating) for rating in table_data['pass_rating'] ]
             table_data['team'] = [ standardize_initials(team) for team in table_data['team'] ]
             table_data['opp'] = [ get_opp(team) for team in table_data['team'] ]
             table_data['home'] = [ int(team == home_team) for team in table_data['team'] ]
             table_data['score'] = [ get_score(team) for team in table_data['team'] ]
+            table_data['opp_score'] = [ get_opp_score(team) for team in table_data['team'] ]
             table_data['week'] = [week] * len(names)
             
             # Defaults to WR, name already standardized
