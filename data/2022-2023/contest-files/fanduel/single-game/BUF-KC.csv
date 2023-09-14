@@ -1,0 +1,71 @@
+Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+81852-57439,QB,Patrick,Patrick Mahomes,Mahomes,25.024000549316405,5,17000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-62239,QB,Josh,Josh Allen,Allen,30.107998657226563,5,16500,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-33076,TE,Travis,Travis Kelce,Kelce,19.060000610351562,5,15000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-25079,WR,Stefon,Stefon Diggs,Diggs,20.060000610351562,5,14500,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-85741,RB,Clyde,Clyde Edwards-Helaire,Edwards-Helaire,14.8,5,13500,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-94534,WR,Gabe,Gabe Davis,Davis,13.600000381469727,4,12500,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-70603,RB,Devin,Devin Singletary,Singletary,8.919999694824218,5,12000,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-55987,WR,JuJu,JuJu Smith-Schuster,Smith-Schuster,6.94000015258789,5,10500,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-53639,WR,Isaiah,Isaiah McKenzie,McKenzie,10.350000381469727,4,10000,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-41642,K,Harrison,Harrison Butker,Butker,9,1,9500,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-57330,K,Matthew,Matthew Wright,Wright,10,2,9500,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-64585,TE,Dawson,Dawson Knox,Knox,4.275000095367432,4,9000,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-65128,K,Tyler,Tyler Bass,Bass,8.8,5,9000,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-40647,WR,Marquez,Marquez Valdes-Scantling,Valdes-Scantling,7,5,8500,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-12526,D,Buffalo,Buffalo Bills,Bills,12.4,5,8500,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-70027,RB,Zack,Zack Moss,Moss,2.660000038146973,5,8000,BUF@KC,BUF,KC,NA,Coach's decision,,,,MVP - 1.5X Points/AnyFLEX
+81852-71352,WR,Mecole,Mecole Hardman,Hardman,5.340000152587891,5,8000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-12536,D,Kansas City,Kansas City Chiefs,Chiefs,5.2,5,8000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-92575,RB,Isiah,Isiah Pacheco,Pacheco,4,5,7500,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-91626,RB,James,James Cook,Cook,3.720000076293945,5,7500,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-27671,WR,Jake,Jake Kumerow,Kumerow,4.199999809265137,2,7000,BUF@KC,BUF,KC,NA,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+81852-24755,WR,Jamison,Jamison Crowder,Crowder,2.25,4,7000,BUF@KC,BUF,KC,IR,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+81852-54608,RB,Jerick,Jerick McKinnon,McKinnon,5.1400001525878904,5,7000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-112062,WR,Skyy,Skyy Moore,Moore,1.6200000762939453,5,6500,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-104447,TE,Jody,Jody Fortson,Fortson,4.700000127156575,3,6500,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-83083,WR,Justin,Justin Watson,Watson,2.7,5,6000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-70426,TE,Reggie,Reggie Gilliam,Gilliam,5.949999809265137,2,6000,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-90123,TE,Quintin,Quintin Morris,Morris,1.9249999523162842,4,5500,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-93143,TE,Noah,Noah Gray,Gray,2.8200000762939452,5,5500,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-26458,WR,Tavon,Tavon Austin,Austin,3.2833334604899087,12,5500,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-25837,RB,Duke,Duke Johnson,Johnson,11.419999694824218,5,5500,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-170113,TE,Kehinde,Kehinde Oginni Hassan,Oginni Hassan,,,5000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-70023,WR,Cornell,Cornell Powell,Powell,,,5000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-39818,RB,Wayne,Wayne Gallman Jr.,Gallman Jr.,1.8571428571428572,7,5000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-27403,TE,Blake,Blake Bell,Bell,1.25,12,5000,BUF@KC,KC,BUF,IR,Hip,,,,MVP - 1.5X Points/AnyFLEX
+81852-45964,WR,Marcus,Marcus Kemp,Kemp,0.6800000190734863,5,5000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-90380,WR,Neil,Neil Pau'u,Pau'u,,,5000,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-101007,TE,Mark,Mark Vital,Vital,,,5000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-83086,WR,Daurice,Daurice Fountain,Fountain,,,5000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-130320,WR,Aaron,Aaron Parker,Parker,,,5000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-56212,TE,Tommy,Tommy Sweeney,Sweeney,2.1285713740757535,7,5000,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-68890,WR,Devin,Devin Gray,Gray,,,5000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-90398,TE,Matt,Matt Bushman,Bushman,,,5000,BUF@KC,KC,BUF,Q,Collarbone,,,,MVP - 1.5X Points/AnyFLEX
+81852-7844,QB,Chad,Chad Henne,Henne,0,1,5000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-29605,QB,Matt,Matt Barkley,Barkley,,,5000,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-62891,WR,Omar,Omar Bayless,Bayless,,,5000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-95026,QB,Dustin,Dustin Crum,Crum,,,5000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-73398,QB,Chris,Chris Oladokun,Oladokun,,,5000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-103352,RB,Christian,Christian Wade,Wade,,,5000,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-71228,WR,Marquez,Marquez Stevenson,Stevenson,0,5,5000,BUF@KC,BUF,KC,IR,Foot,,,,MVP - 1.5X Points/AnyFLEX
+81852-64575,RB,Derrick,Derrick Gore,Gore,5.822222391764323,9,5000,BUF@KC,KC,BUF,Q,Thumb,,,,MVP - 1.5X Points/AnyFLEX
+81852-69056,WR,Mathew,Mathew Sexton,Sexton,,,5000,BUF@KC,KC,BUF,Q,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+81852-30403,WR,Chris,Chris Conley,Conley,0,1,5000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-69833,QB,Shane,Shane Buechele,Buechele,,,5000,BUF@KC,KC,BUF,NA,Coach's decision,,,,MVP - 1.5X Points/AnyFLEX
+81852-26057,RB,Michael,Michael Burton,Burton,0.75,2,5000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-149708,TE,Zach,Zach Davidson,Davidson,,,5000,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-22994,QB,Case,Case Keenum,Keenum,0.1599999964237213,2,5000,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-63061,WR,Gary,Gary Jennings,Jennings,,,5000,BUF@KC,KC,BUF,Q,Concussion,,,,MVP - 1.5X Points/AnyFLEX
+81852-112088,RB,Jerrion,Jerrion Ealy,Ealy,,,5000,BUF@KC,KC,BUF,O,Suspension,,,,MVP - 1.5X Points/AnyFLEX
+81852-42077,TE,James,James Winchester,Winchester,,,5000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-87649,WR,Jaquarii,Jaquarii Roberson,Roberson,,,5000,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-63591,RB,Ronald,Ronald Jones II,Jones II,4.946666463216146,15,5000,BUF@KC,KC,BUF,NA,Coach's decision,,,,MVP - 1.5X Points/AnyFLEX
+81852-94310,WR,Malik,Malik Williams,Williams,,,5000,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-57325,TE,Jordan,Jordan Franks,Franks,,,5000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-89964,WR,Justyn,Justyn Ross,Ross,,,5000,BUF@KC,KC,BUF,IR,Foot,,,,MVP - 1.5X Points/AnyFLEX
+81852-14319,RB,Taiwan,Taiwan Jones,Jones,0,1,5000,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-88307,RB,Tayon,Tayon Fleet-Davis,Fleet-Davis,,,5000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-31732,WR,Corey,Corey Coleman,Coleman,,,5000,BUF@KC,KC,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-86518,WR,Khalil,Khalil Shakir,Shakir,6.099999745686849,3,5000,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+81852-57208,WR,KeeSean,KeeSean Johnson,Johnson,,,5000,BUF@KC,BUF,KC,,,,,,MVP - 1.5X Points/AnyFLEX

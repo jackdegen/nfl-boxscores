@@ -1,0 +1,69 @@
+Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+80319-6498,QB,Tom,Tom Brady,Brady,22.091578433388158,19,16000,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-31716,QB,Dak,Dak Prescott,Prescott,20.730589025160846,17,15500,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-32384,WR,Mike,Mike Evans,Evans,14.977778116861979,18,14500,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-86631,WR,CeeDee,CeeDee Lamb,Lamb,11.552940817440257,17,14000,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-52922,RB,Leonard,Leonard Fournette,Fournette,16.553333536783853,15,13500,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-38791,RB,Ezekiel,Ezekiel Elliott,Elliott,12.897777981228298,18,13000,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-55635,WR,Chris,Chris Godwin,Godwin,13.814285278320312,14,12000,TB@DAL,TB,DAL,Q,Knee - acl + mcl,,,,MVP - 1.5X Points/AnyFLEX
+80319-52916,WR,Russell,Russell Gage,Gage,10,13,11000,TB@DAL,TB,DAL,Q,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+80319-14190,WR,Julio,Julio Jones,Jones,6.736363497647372,11,10500,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-69956,WR,Michael,Michael Gallup,Gallup,8.222222222222221,9,10000,TB@DAL,DAL,TB,O,Knee - acl,,,,MVP - 1.5X Points/AnyFLEX
+80319-63759,RB,Tony,Tony Pollard,Pollard,9.168749809265137,16,9500,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-6767,K,Ryan,Ryan Succop,Succop,8.157894736842104,19,9500,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-55042,TE,Dalton,Dalton Schultz,Schultz,10.122222052680122,18,9000,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-27292,K,Brett,Brett Maher,Maher,8.857142857142858,7,9000,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-12551,D,Tampa Bay,Tampa Bay Buccaneers,Buccaneers,0,19,8500,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-88548,WR,Jalen,Jalen Tolbert,Tolbert,,,8500,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-12530,D,Dallas,Dallas Cowboys,Cowboys,0,18,8000,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-54782,TE,Cameron,Cameron Brate,Brate,3.850000169542101,18,8000,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-137902,RB,Rachaad,Rachaad White,White,,,7500,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-56248,WR,Noah,Noah Brown,Brown,2.9333332909478083,9,7500,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-14237,TE,Kyle,Kyle Rudolph,Rudolph,3.1133333841959634,15,7000,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-55748,WR,James,James Washington,Washington,4.03125,16,7000,TB@DAL,DAL,TB,IR,Foot,,,,MVP - 1.5X Points/AnyFLEX
+80319-89613,WR,Simi,Simi Fehoko,Fehoko,,,6500,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-92093,WR,Jaelon,Jaelon Darden,Darden,0.7636363289572976,11,6500,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-61273,WR,Scotty,Scotty Miller,Miller,3.075000047683716,8,6000,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-63078,RB,Ke'Shawn,Ke'Shawn Vaughn,Vaughn,6.828571319580078,7,6000,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-34295,WR,Breshad,Breshad Perriman,Perriman,4.816666603088379,6,6000,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-60957,WR,KaVontae,KaVontae Turpin,Turpin,,,5500,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-25290,RB,Giovani,Giovani Bernard,Bernard,5.366666793823242,12,5500,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-89680,TE,Jake,Jake Ferguson,Ferguson,,,5500,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-170214,WR,Dennis,Dennis Houston,Houston,,,5500,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-72297,RB,Rico,Rico Dowdle,Dowdle,,,5500,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-55941,RB,Patrick,Patrick Laird,Laird,1.1999999682108562,3,5000,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-130310,K,Lirim,Lirim Hajrullahu,Hajrullahu,5,4,5000,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-94481,WR,Deven,Deven Thompkins,Thompkins,,,5000,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-86811,TE,Cade,Cade Otton,Otton,,,5000,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-86047,RB,Malik,Malik Davis,Davis,,,5000,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-111012,WR,Kaylon,Kaylon Geiger Sr.,Geiger Sr.,,,5000,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-33702,QB,Ryan,Ryan Griffin,Griffin,,,5000,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-170282,TE,JJ,JJ Howland,Howland,,,5000,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-44715,QB,Cooper,Cooper Rush,Rush,6.269999980926514,4,5000,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-29357,RB,Kenjon,Kenjon Barner,Barner,0,3,5000,TB@DAL,TB,DAL,IR,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+80319-79920,WR,Cyril,Cyril Grayson Jr.,Grayson Jr.,13.199999491373697,3,5000,TB@DAL,TB,DAL,Q,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+80319-128566,WR,Kameron,Kameron Brown,Brown,,,5000,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-69304,QB,Kyle,Kyle Trask,Trask,,,5000,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-68155,TE,Codey,Codey McElroy,McElroy,0.25,2,5000,TB@DAL,TB,DAL,Q,Foot,,,,MVP - 1.5X Points/AnyFLEX
+80319-55099,TE,Ian,Ian Bunting,Bunting,,,5000,TB@DAL,DAL,TB,IR,Neck,,,,MVP - 1.5X Points/AnyFLEX
+80319-102721,WR,Dontario,Dontario Drummond,Drummond,,,5000,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-31169,TE,Jeremy,Jeremy Sprinkle,Sprinkle,2.299999952316284,2,5000,TB@DAL,DAL,TB,Q,Achilles,,,,MVP - 1.5X Points/AnyFLEX
+80319-139971,WR,Jerreth,Jerreth Sterns,Sterns,,,5000,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-55366,RB,Qadree,Qadree Ollison,Ollison,2.9500001271565757,6,5000,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-72135,WR,T.J.,T.J. Vasher,Vasher,,,5000,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-88776,WR,Ty,Ty Fryfogle,Fryfogle,,,5000,TB@DAL,DAL,TB,Q,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+80319-170191,TE,Ben,Ben Beise,Beise,,,5000,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-54863,WR,C.J.,C.J. Goodwin,Goodwin,2.0999999046325684,1,5000,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-112605,K,Jonathan,Jonathan Garibay,Garibay,,,5000,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-62566,QB,Travis,Travis Jonsen,Jonsen,,,5000,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-170213,RB,Aaron,Aaron Shampklin,Shampklin,,,5000,TB@DAL,DAL,TB,Q,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+80319-57064,RB,Ryan,Ryan Nall,Nall,0.6499999761581421,2,5000,TB@DAL,DAL,TB,Q,Shoulder,,,,MVP - 1.5X Points/AnyFLEX
+80319-68714,TE,Ko,Ko Kieft,Kieft,,,5000,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-38636,TE,Bug,Bug Howard,Howard,,,5000,TB@DAL,TB,DAL,Q,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+80319-86125,WR,Brandon,Brandon Smith,Smith,,,5000,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-63469,QB,Ben,Ben DiNucci,DiNucci,,,5000,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-88816,TE,Peyton,Peyton Hendershot,Hendershot,,,5000,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-14194,QB,Blaine,Blaine Gabbert,Gabbert,0.33000000317891437,6,5000,TB@DAL,TB,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-60788,TE,Nick,Nick Ralston,Ralston,,,5000,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-52342,QB,Will,Will Grier,Grier,,,5000,TB@DAL,DAL,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+80319-68730,TE,Sean,Sean McKeon,McKeon,2.674999952316284,4,5000,TB@DAL,DAL,TB,Q,Ankle,,,,MVP - 1.5X Points/AnyFLEX
