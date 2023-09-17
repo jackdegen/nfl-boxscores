@@ -70,3 +70,12 @@ teamname_initials: dict[[str], str] = {
 def convert_teamname(team_str):
     return teamname_initials[team_str]
 
+
+# Convert to name on DFS sites
+name_issues = {
+    'Gabriel Davis': 'Gabe Davis'
+}
+
+def standardize_name(name):
+    return name_issues.get(name, name)
+

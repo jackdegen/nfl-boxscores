@@ -24,13 +24,13 @@ class Filing:
         return ' '.join(name.split(' ')[:2]).replace('.', '')
 
 
-    def save_boxscore(self, df: pd.DataFrame, weeknum: int) -> None:
+    def save_boxscore(self, df: pd.DataFrame, away: str, home: str) -> None:
         """
         Saves boxscore as csv (later on can configure different formats)
         Saves in form of away-home-week#.csv
+        Want to instead save as away-home.csv
         """
-        teams = sorted(list(df['team'].drop_duplicates()))
-        filename = f'{"-".join(teams)}-week{weeknum}.csv'
+        filename = f'{away}-{home}.csv'
         
         fpath = os.path.join(self.boxscores_dir, filename)
         df.to_csv(fpath, index=False)

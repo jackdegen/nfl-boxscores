@@ -14,6 +14,7 @@ from filing import Filing
 from ._conversions import (
     convert_teamname,
     standardize_initials,
+    standardize_name
 )
 from ._info import DATA_COLUMNS
 from ._templates import week_url
@@ -85,26 +86,27 @@ class Scraper:
     
             # Different for names because th not td
             names = [
-                self.clean_name(tag.get_text()) for tag in stat_table.find_all('th', attrs={'data-stat': 'player'})
+                standardize_name(self.clean_name(tag.get_text())) for tag in stat_table.find_all('th', attrs={'data-stat': 'player'})
                 if tag.get_text() != 'Player'
             ]
+
+            convert_stat_str = lambda stat, stat_val: stat_val if stat in ['player', 'team', 'pass_rating'] else int(stat_val)
             
             table_data = {
-                stat: [td.get_text() for td in stat_table.find_all('td', attrs={'data-stat': stat})]
+                stat: [convert_stat_str(stat, td.get_text()) for td in stat_table.find_all('td', attrs={'data-stat': stat})]
                 for stat in self.data_columns[1:]
             }
             
-            
-            # Will do rest of cleaning later on, just wanted to not have any NA values in saved files and have standardized names, teams, and positions
+            # One-liners to either clean or add more info when more annoying then doing on massive dataframes
             fix_rating = lambda rating_str: float(rating_str) if len(rating_str) else 0.0
-            teams = tuple([standardize_initials(team) for team in set(table_data['team'])])
-            
-            get_opp = lambda team_: teams[1] if team_ == teams[0] else teams[0]
-            get_score = lambda team_: home_score if team_ == home_team else away_score
-            get_opp_score = lambda team_: away_score if team_ == home_team else home_score
+            is_home = lambda team_: team_ == home_team
+            get_opp = lambda team_: away_team if is_home(team_) else home_team
+            get_score = lambda team_: home_score if is_home(team_) else away_score
+            get_opp_score = lambda team_: away_score if is_home(team_) else home_score
 
             winning_team = home_team if home_score > away_score else away_team
             is_winner = lambda team_: int(team_ == winning_team)
+            get_spread = lambda team_: home_score - away_score if is_home(team_) else away_score - home_score
             total_score = away_score + home_score
             
             table_data['pass_rating'] = [ fix_rating(rating) for rating in table_data['pass_rating'] ]
@@ -114,14 +116,24 @@ class Scraper:
             table_data['score'] = [ get_score(team) for team in table_data['team'] ]
             table_data['opp_score'] = [ get_opp_score(team) for team in table_data['team'] ]
             table_data['winner'] = [ is_winner(team) for team in table_data['team'] ]
+
+            table_data['spread'] = [ get_spread(team) for team in table_data['team'] ]
             table_data['total'] = [total_score] * len(names)
             table_data['week'] = [week] * len(names)
             
             # Defaults to WR, name already standardized
             table_data['pos'] = [ self.lookup_position.get(name, 'WR') for name in names ]
+
+            # Need to figure out defense
+            # Just need to remember in PPR format
+            df = (pd
+                  .DataFrame(data={**{'name': names}, **table_data})
+                  .assign(fpts=lambda df: 0.04*df.pass_yds + 4.0*df.pass_td - 1.0*df.pass_int + 0.1*df.rush_yds + 6.0*df.rush_td + 1.0*df.rec + 0.1*df.rec_yds + 6.0*df.rec_td - 1.0*df.fumbles_lost)
+                 )
+
+
             
-            df = pd.DataFrame(data={**{'name': names}, **table_data})
-            self.filing.save_boxscore(df, week)
+            self.filing.save_boxscore(df, away_team, home_team)
         
 
         return
@@ -136,12 +148,12 @@ class Scraper:
 
         # Dont want to scrape data already saved (assuming previous data formatted correctly)
         # This will not get games if whole week of games not complete (only do on tuesday-wednesday)
-        if self.year == 2023:
-            # .../../team1-team2-week#.csv --> Want just #
-            extract_week = lambda fname: int(fname.split('/')[-1].split('.')[0].split('-')[2].replace('week', ''))
-            boxscore_weeks = set([ extract_week(file) for file in glob.glob(self.filing.boxscores_dir + '/*.csv') ])
+        # if self.year == 2023:
+        #     # .../../team1-team2-week#.csv --> Want just #
+        #     extract_week = lambda fname: int(fname.split('/')[-1].split('.')[0].split('-')[2].replace('week', ''))
+        #     boxscore_weeks = set([ extract_week(file) for file in glob.glob(self.filing.boxscores_dir + '/*.csv') ])
 
-            self.week_pages = { week: page for week, page in self.week_pages.items() if week not in boxscore_weeks }
+        #     self.week_pages = { week: page for week, page in self.week_pages.items() if week not in boxscore_weeks }
 
 
         if not len(self.week_pages):
