@@ -70,6 +70,11 @@ teamname_initials: dict[[str], str] = {
 def convert_teamname(team_str):
     return teamname_initials[team_str]
 
+# No City --> For Defenses 
+initials_teamname = {val: key.split(' ')[-1] for key, val in teamname_initials.items()}
+
+def convert_initials(team_initials):
+    return initials_teamname[team_initials]
 
 # Convert to name on DFS sites
 name_issues = {
@@ -78,4 +83,5 @@ name_issues = {
 
 def standardize_name(name):
     return name_issues.get(name, name)
+
 
