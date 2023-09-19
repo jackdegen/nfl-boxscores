@@ -1,0 +1,75 @@
+Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+94031-45859,QB,Derek,Derek Carr,Carr,15.600000381469727,1,16000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-87770,WR,Chris,Chris Olave,Olave,15.199999809265137,1,15500,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-119606,QB,Bryce,Bryce Young,Young,9.539999961853027,1,14500,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-45631,RB,Jamaal,Jamaal Williams,Williams,6.199999809265137,1,14000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-71845,RB,Miles,Miles Sanders,Sanders,9.800000190734863,1,13500,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-170287,WR,Rashid,Rashid Shaheed,Shaheed,16.5,1,13000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-28573,WR,Michael,Michael Thomas,Thomas,8.600000381469727,1,12500,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-42104,RB,Alvin,Alvin Kamara,Kamara,12.213333129882812,15,11000,NO@CAR,NO,CAR,IR,Suspension,,,,MVP - 1.5X Points/AnyFLEX
+94031-87467,RB,Chuba,Chuba Hubbard,Hubbard,7.900000095367432,1,10000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-39716,WR,Adam,Adam Thielen,Thielen,2.200000047683716,1,9500,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-89348,K,Blake,Blake Grupe,Grupe,12,1,9000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-12542,D,New Orleans,New Orleans Saints,Saints,10,1,9000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-12553,D,Carolina,Carolina Panthers,Panthers,4,1,8500,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-69307,K,Eddy,Eddy Pineiro,Pineiro,5,1,8500,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-64031,TE,Hayden,Hayden Hurst,Hurst,12.600000381469727,1,8000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-52917,WR,DJ,DJ Chark Jr.,Chark Jr.,7.563636086203835,11,8000,NO@CAR,CAR,NO,Q,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+94031-45565,TE,Taysom,Taysom Hill,Hill,0.4000000059604645,1,8000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-64808,TE,Juwan,Juwan Johnson,Johnson,5.099999904632568,1,7500,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-85672,WR,Terrace,Terrace Marshall Jr.,Marshall Jr.,3.299999952316284,1,7500,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-87859,WR,Laviska,Laviska Shenault Jr.,Shenault Jr.,3.0999999046325684,1,7000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-112192,WR,Jonathan,Jonathan Mingo,Mingo,2.700000047683716,1,7000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-91677,WR,Shi,Shi Smith,Smith,3.1624999046325684,16,6500,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-120657,RB,Kendre,Kendre Miller,Miller,,,6500,NO@CAR,NO,CAR,Q,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+94031-73121,RB,Tony,Tony Jones Jr.,Jones Jr.,0.5,1,6000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-60712,TE,Foster,Foster Moreau,Moreau,4.907142639160156,14,6000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-69383,WR,Dezmon,Dezmon Patmon,Patmon,3.4000000953674316,1,5500,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-92590,RB,Raheem,Raheem Blackshear,Blackshear,2.923076923076923,13,5500,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-30678,WR,Damiere,Damiere Byrd,Byrd,3.7749999364217124,12,5500,NO@CAR,CAR,NO,Q,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+94031-11512,TE,Jimmy,Jimmy Graham,Graham,,,5500,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-183040,K,Alex,Alex Quevedo,Quevedo,,,5000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-152320,RB,Tiyon,Tiyon Evans,Evans,,,5000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-128515,RB,Ellis,Ellis Merriweather,Merriweather,,,5000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-115971,WR,Shaq,Shaq Davis,Davis,,,5000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-85762,RB,Eno,Eno Benjamin,Benjamin,5.93076911339393,13,5000,NO@CAR,NO,CAR,IR,Achilles,,,,MVP - 1.5X Points/AnyFLEX
+94031-86793,QB,Jake,Jake Haener,Haener,,,5000,NO@CAR,NO,CAR,IR,Suspension,,,,MVP - 1.5X Points/AnyFLEX
+94031-94864,RB,Jashaun,Jashaun Corbin,Corbin,,,5000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-24849,QB,Jameis,Jameis Winston,Winston,16.306666056315105,3,5000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-14225,QB,Andy,Andy Dalton,Dalton,13.08857182094029,14,5000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-69655,TE,Stephen,Stephen Sullivan,Sullivan,0.9333333174387614,6,5000,NO@CAR,CAR,NO,IR,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+94031-28694,TE,Jesse,Jesse James,James,,,5000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-69276,WR,Bryan,Bryan Edwards,Edwards,0.75,4,5000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-91679,WR,Josh,Josh Vann,Vann,,,5000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-52897,RB,Darrel,Darrel Williams,Williams,3.8200000762939452,5,5000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-71844,K,Blake,Blake Gillikin,Gillikin,0,17,5000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-45997,WR,Keith,Keith Kirkwood,Kirkwood,0,1,5000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-85687,WR,Jontre,Jontre Kirklin,Kirklin,,,5000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-89785,RB,Spencer,Spencer Brown,Brown,3.1500000953674316,2,5000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-60984,TE,Jake,Jake Bargas,Bargas,,,5000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-174907,WR,Sy,Sy Barnett,Barnett,,,5000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-71228,WR,Marquez,Marquez Stevenson,Stevenson,,,5000,NO@CAR,CAR,NO,Q,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+94031-71359,WR,Javon,Javon Wims,Wims,,,5000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-52929,QB,Jake,Jake Luton,Luton,,,5000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-72515,TE,Ian,Ian Thomas,Thomas,2.323076981764573,13,5000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-87621,WR,A.T.,A.T. Perry,Perry,,,5000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-65477,TE,Giovanni,Giovanni Ricci,Ricci,0.699999988079071,1,5000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-65737,TE,Sam,Sam Tecklenburg,Tecklenburg,,,5000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-149710,WR,Mike,Mike Strachan,Strachan,1.4800000190734863,5,5000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-88525,WR,Kawaan,Kawaan Baker,Baker,,,5000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-73551,WR,Stantley,Stantley Thomas-Oliver III,Thomas-Oliver III,,,5000,NO@CAR,CAR,NO,O,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+94031-65231,RB,Adam,Adam Prentice,Prentice,0.6599999904632569,5,5000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-87122,WR,Lynn,Lynn Bowden Jr.,Bowden Jr.,,,5000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-91989,RB,Jordan,Jordan Mims,Mims,,,5000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-63061,WR,Gary,Gary Jennings,Jennings,,,5000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-63576,WR,Kirk,Kirk Merritt,Merritt,,,5000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-71386,TE,Jordan,Jordan Thomas,Thomas,,,5000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-91101,TE,Tommy,Tommy Tremble,Tremble,3.0642858232770647,14,5000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-86113,WR,Ihmir,Ihmir Smith-Marsette,Smith-Marsette,0,1,5000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-25957,TE,J.P.,J.P. Holtz,Holtz,,,5000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-79974,RB,Tarik,Tarik Cohen,Cohen,,,5000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-66155,TE,Michael,Michael Jacobson,Jacobson,,,5000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-94314,RB,Camerun,Camerun Peoples,Peoples,,,5000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-60791,TE,Tommy,Tommy Hudson,Hudson,,,5000,NO@CAR,NO,CAR,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-103930,WR,Derek,Derek Wright,Wright,,,5000,NO@CAR,CAR,NO,,,,,,MVP - 1.5X Points/AnyFLEX
+94031-57342,WR,Tre'Quan,Tre'Quan Smith,Smith,4.811111026340061,9,5000,NO@CAR,NO,CAR,IR,Groin,,,,MVP - 1.5X Points/AnyFLEX
