@@ -68,7 +68,8 @@ class Scraper:
         """
         Standardizes name across PFR, FD, DK
         """
-        return ' '.join(name.split(' ')[:2]).replace('.', '')
+        clean_ = ' '.join(name.split(' ')[:2]).replace('.', '')
+        return standardize_name(clean_)
 
     def get_week_boxscores(self, week: int, url: str):
         """
@@ -111,7 +112,7 @@ class Scraper:
     
             # Different for names because th not td
             names = [
-                standardize_name(self.clean_name(tag.get_text())) for tag in stat_table.find_all('th', attrs={'data-stat': 'player'})
+                self.clean_name(tag.get_text()) for tag in stat_table.find_all('th', attrs={'data-stat': 'player'})
                 if tag.get_text() != 'Player'
             ]
 
@@ -155,6 +156,7 @@ class Scraper:
 
             # Need to figure out defense
             # Just need to remember in PPR format
+            # TODO: figure out cleaner way for assign and bonuses
             offense_df = (pd
                   .DataFrame(data={**{'name': names}, **table_data})
                   .assign(fpts=lambda df: 0.04*df.pass_yds + 4.0*df.pass_td - 1.0*df.pass_int + 0.1*df.rush_yds + 6.0*df.rush_td + 1.0*df.rec + 0.1*df.rec_yds + 6.0*df.rec_td - 1.0*df.fumbles_lost)
@@ -268,17 +270,98 @@ class Scraper:
             }
             ########################################################################################################
 
-            df = (pd
-                  .concat([
-                      offense_df,
-                      pd.DataFrame(defense_data),
-                      pd.DataFrame(kicking_data)
-                  ])
-                  .fillna(0.0) # Careful
-                  .assign(name=lambda df_: df_.name.str.strip())
-                 )
+            fpts_df = (pd
+                       .concat([
+                           offense_df,
+                           pd.DataFrame(defense_data),
+                           pd.DataFrame(kicking_data)
+                       ])
+                       .fillna(0.0) #Careful
+                       .assign(name=lambda df_: df_.name.str.strip()) # Whitespace issues
+                      )
             
-            self.filing.save_boxscore(df, away_team, home_team)
+            self.filing.save_boxscore(fpts_df, away_team, home_team)
+            
+            ########################################################################################################
+            # Snap Counts
+            ########################################################################################################
+            snapcounts_tables = {
+                away_team: game_soup.find_all('table', id='vis_snap_counts')[0], #vis not away 
+                home_team: game_soup.find_all('table', id='home_snap_counts')[0]
+            }
+            
+            # Two separate tables instead of one combined table --> 2d dict
+            snapcounts_data = {
+                away_team: dict(),
+                home_team: dict()
+            }
+            
+            # Dont want lineman info (for now)
+            target_pos = ('QB', 'WR', 'RB', 'TE')
+            # Only want offensive data (for now) --> data-stat values in HTML
+            snapcount_data_stats = ('player', 'pos', 'offense', 'off_pct')
+            
+            # Going to get everyone at first (easier) --> then will filter dict based on position / index
+            for team, snapcount_html_table in snapcounts_tables.items():
+                snapcounts_data[team]['name'] = [
+                    self.clean_name(tag.get_text()) for tag in snapcount_html_table.find_all('th', attrs={'data-stat': 'player'})
+                    if tag.get_text() != 'Player'
+                ]
+            
+                for stat in snapcount_data_stats[1:]:
+                    snapcounts_data[team][stat] = [td.get_text() for td in snapcount_html_table.find_all('td', attrs={'data-stat': stat})]
+            
+            
+            # Now cleaning
+            
+            for team, snap_info in snapcounts_data.items():
+                # Indexes of positions in target_pos
+                num_entries = len(snap_info['name'])
+                pos_indexes = [i for i in range(num_entries) if snap_info['pos'][i] in target_pos]
+            
+                for stat in snap_info:
+                    target_pos_values = [snap_info[stat][i] for i in pos_indexes]
+                    if stat == 'offense':
+                        target_pos_values = [int(val) for val in target_pos_values]
+                    elif stat == 'off_pct':
+                        target_pos_values = [float(val[:-1]) / 100 for val in target_pos_values]
+                    snap_info[stat] = target_pos_values
+            
+            
+            # Flattening, adding game info for subsequent individual dataframes 
+            awayteam_df_data = snapcounts_data[away_team]
+            hometeam_df_data = snapcounts_data[home_team]
+            
+            awayteam_num_rows = len(awayteam_df_data['name'])
+            hometeam_num_rows = len(hometeam_df_data['name'])
+            
+            awayteam_df_data['team'] = [away_team] * awayteam_num_rows
+            awayteam_df_data['opp'] = [home_team] * awayteam_num_rows
+            
+            hometeam_df_data['team'] = [home_team] * hometeam_num_rows
+            hometeam_df_data['opp'] = [away_team] * hometeam_num_rows
+            
+            rename_columns = {
+                'offense': 'snap_total',
+                'off_pct': 'snap_percent'
+            }
+            # Make DataFrames
+            away_snapcounts_df, home_snapcounts_df = tuple([
+                (pd
+                 .DataFrame(data_)
+                 .rename(rename_columns, axis=1)
+                )
+                for data_ in (awayteam_df_data, hometeam_df_data)
+            ])
+
+            snapcounts_dfs = {
+                away_team: away_snapcounts_df,
+                home_team: home_snapcounts_df
+            }
+
+            for team, df_ in snapcounts_dfs.items():
+                self.filing.save_snapcounts(df_, team, week)
+            
             time.sleep(5)
         
 

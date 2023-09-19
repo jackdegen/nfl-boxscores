@@ -11,9 +11,10 @@ class Filing:
         self.data_dir = os.getcwd().replace('src', 'data')
         self.season_dir = os.path.join(self.data_dir, season)
         self.boxscores_dir = os.path.join(self.season_dir, 'boxscores')
+        self.snapcounts_dir = os.path.join(self.season_dir, 'snap-counts')
 
         # Check to make sure if directories exist, if not create them
-        for directory in (self.data_dir, self.season_dir, self.boxscores_dir):
+        for directory in (self.data_dir, self.season_dir, self.boxscores_dir, self.snapcounts_dir):
             if not os.path.exists(directory):
                 os.mkdir(directory)
 
@@ -27,8 +28,7 @@ class Filing:
     def save_boxscore(self, df: pd.DataFrame, away: str, home: str) -> None:
         """
         Saves boxscore as csv (later on can configure different formats)
-        Saves in form of away-home-week#.csv
-        Want to instead save as away-home.csv
+        Saves in form of away-home.csv --> Will never have duplication issues
         """
         filename = f'{away}-{home}.csv'
         
@@ -36,6 +36,15 @@ class Filing:
         df.to_csv(fpath, index=False)
 
         return
+
+    def save_snapcounts(self, df: pd.DataFrame, team: str, week: int) -> None:
+        """
+        Saves snapcounts for fantasy position players
+        Saves in form of team-week#.csv
+        """
+        filename = f'{team}-week{week}.csv'
+        fpath = os.path.join(self.snapcounts_dir, filename)
+        df.to_csv(fpath, index=False)
 
     
     def combined(self, **kwargs) -> pd.DataFrame:
