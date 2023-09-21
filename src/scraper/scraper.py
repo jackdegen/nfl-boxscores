@@ -21,6 +21,9 @@ from ._conversions import (
     standardize_name
 )
 from ._info import (
+    ADV_PASSING_COLUMNS,
+    ADV_RUSHING_COLUMNS,
+    ADV_RECEIVING_COLUMNS,
     DEFENSIVE_FPTS_RULES,
     DEFENSIVE_TD_COLUMNS,
     KICKING_FPTS_RULES,
@@ -33,8 +36,7 @@ from ._templates import week_url
 class Scraper:
 
     def __init__(self, year=2023):
-        """
-        """
+
         self.year: int = int(year)
         self.season: str = f'{self.year}-{self.year+1}'
 
@@ -71,6 +73,19 @@ class Scraper:
         clean_ = ' '.join(name.split(' ')[:2]).replace('.', '')
         return standardize_name(clean_)
 
+    def parse_adv_stat(self, stat: str, stat_val: str):
+        if stat == 'team':
+            return stat_val
+    
+        if 'pct' in stat or '%' in stat_val: # Just in case
+            no_pct_sign = stat_val[:-1]
+            return round( float(no_pct_sign)/100, 3 ) if len(no_pct_sign) else 0.0
+    
+        if not len(stat_val) or stat_val = ' ':
+            return 0.0
+    
+        return float(stat_val) if '.' in stat_val else int(stat_val)
+
     def get_week_boxscores(self, week: int, url: str):
         """
         Returns every boxscore for given week and saves it to directory
@@ -97,12 +112,7 @@ class Scraper:
             
             game_soup = BeautifulSoup(self.driver.page_source, 'html.parser')
             
-            
-            # game_soup = BeautifulSoup(
-            #     requests.get(game_url).text,
-            #     'html.parser'
-            # )
-
+    
             stat_table = game_soup.find_all('table', id='player_offense')[0]
 
             scorebox = game_soup.find_all('div', class_='scorebox')[0]
@@ -152,7 +162,7 @@ class Scraper:
             table_data['week'] = [week] * n_players
             
             # Defaults to WR, name already standardized
-            table_data['pos'] = [ self.lookup_position.get(name, 'WR') for name in names ]
+            # table_data['pos'] = [ self.lookup_position.get(name, 'WR') for name in names ]
 
             # Need to figure out defense
             # Just need to remember in PPR format
@@ -206,7 +216,8 @@ class Scraper:
                     
                 defense_fpts[team] += 6.0*team_def_tds[team]
                 # Defense not responsible for opposing defense getting TD
-                team_defense_stats[team]['pts_allowed'] -= 6.0*team_def_tds[team]
+                # Issues might be here
+                team_defense_stats[team]['pts_allowed'] -= 6.0*team_def_tds[get_opp(team)]
                 
                 for pts_range, fpts_ in PTS_ALLOWED_SCORING.items():
                     if team_defense_stats[team]['pts_allowed'] in pts_range:
@@ -270,17 +281,18 @@ class Scraper:
             }
             ########################################################################################################
 
-            fpts_df = (pd
-                       .concat([
-                           offense_df,
-                           pd.DataFrame(defense_data),
-                           pd.DataFrame(kicking_data)
-                       ])
-                       .fillna(0.0) #Careful
-                       .assign(name=lambda df_: df_.name.str.strip()) # Whitespace issues
-                      )
-            
-            self.filing.save_boxscore(fpts_df, away_team, home_team)
+            # fpts_df = (pd
+            #            .concat([
+            #                offense_df,
+            #                pd.DataFrame(defense_data),
+            #                pd.DataFrame(kicking_data)
+            #            ])
+            #            .fillna(0.0) #Careful
+            #            .assign(name=lambda df_: df_.name.str.strip()) # Whitespace issues
+            #           )
+
+            # # File after getting position from Pro-Football-Reference
+            # self.filing.save_boxscore(fpts_df, away_team, home_team)
             
             ########################################################################################################
             # Snap Counts
@@ -311,14 +323,21 @@ class Scraper:
                 for stat in snapcount_data_stats[1:]:
                     snapcounts_data[team][stat] = [td.get_text() for td in snapcount_html_table.find_all('td', attrs={'data-stat': stat})]
             
+
+            # Initialize as empty outside loop in order to be used elsewhere
+            name_position = {team_: dict() for team_ in (away_team, home_team)}
             
             # Now cleaning
             
             for team, snap_info in snapcounts_data.items():
                 # Indexes of positions in target_pos
                 num_entries = len(snap_info['name'])
+                # Can actually use this as positions source instead of relying on external
                 pos_indexes = [i for i in range(num_entries) if snap_info['pos'][i] in target_pos]
-            
+
+                # REMEMBER: snap_info = snapcounts_data[team]
+                name_position[team] = {snap_info['name'][i]: snap_info['pos'][i] for i in pos_indexes}
+                
                 for stat in snap_info:
                     target_pos_values = [snap_info[stat][i] for i in pos_indexes]
                     if stat == 'offense':
@@ -326,7 +345,12 @@ class Scraper:
                     elif stat == 'off_pct':
                         target_pos_values = [float(val[:-1]) / 100 for val in target_pos_values]
                     snap_info[stat] = target_pos_values
-            
+
+            # Flatten name_position into 1d dict
+            name_position = {
+                **{name_: pos_ for name_, pos_ in name_position[away_team].items()},
+                **{name_: pos_ for name_, pos_ in name_position[home_team].items()}
+            }
             
             # Flattening, adding game info for subsequent individual dataframes 
             awayteam_df_data = snapcounts_data[away_team]
@@ -340,6 +364,9 @@ class Scraper:
             
             hometeam_df_data['team'] = [home_team] * hometeam_num_rows
             hometeam_df_data['opp'] = [away_team] * hometeam_num_rows
+
+            awayteam_df_data['week'] = [week] * awayteam_num_rows
+            hometeam_df_data['week'] = [week] * hometeam_num_rows
             
             rename_columns = {
                 'offense': 'snap_total',
@@ -361,6 +388,59 @@ class Scraper:
 
             for team, df_ in snapcounts_dfs.items():
                 self.filing.save_snapcounts(df_, team, week)
+
+            ########################################################################################################
+            # Filing fpts dataframe here after being able to get positions directly from pfr
+            ########################################################################################################
+
+            offense_df['pos'] = offense_df['name'].map(lambda name_: name_position.get(name_,'RB')) # Default to RB since sometimes LB or FB or weird positions get rushing attempt
+            
+            fpts_df = (pd
+                       .concat([
+                           offense_df,
+                           pd.DataFrame(defense_data),
+                           pd.DataFrame(kicking_data)
+                       ])
+                       .fillna(0.0) #Careful
+                       .assign(name=lambda df_: df_.name.str.strip()) # Whitespace issues
+                      )
+
+            # File after getting position from Pro-Football-Reference
+            self.filing.save_boxscore(fpts_df, away_team, home_team)
+
+            ########################################################################################################
+            # Advanced Stats
+            ########################################################################################################
+
+            ADV_COLUMNS = {
+                'passing': ADV_PASSING_COLUMNS[1:],
+                'rushing': ADV_RUSHING_COLUMNS[1:],
+                'receiving': ADV_RECEIVING_COLUMNS[1:]
+            }
+
+            for category in ('passing', 'rushing', 'receiving'):
+                adv_table = game_soup.find_all('table', id=f'{category}_advanced')[0]
+
+                adv_table_names = [self.clean_name(tag.get_text()) for tag in adv_table.find_all('th', attrs={'data-stat': 'player'}) if tag.get_text() != 'Player']
+
+                adv_data = {
+                    **{
+                        'name': adv_table_names,
+                        'pos': [name_position.get(name_, 'RB') for name_ in adv_table_names],
+                    },
+                    **{
+                        stat: [self.parse_adv_stat(stat, td.get_text()) for td in adv_table.find_all('td', attrs={'data-stat': stat})]
+                        for stat in ADV_COLUMNS[category]
+                    }
+                }
+
+                adv_df = pd.DataFrame(adv_data)
+                # Save as individual team dataframe
+                for team_ in adv_df['team'].drop_duplicates():
+                    team_adv_df = adv_df.loc[adv_df['team'] == team_]
+                    # Parameters: df, stat_category, team, week
+                    self.filing.save_advanced_stats(team_adv_df, category, team_, week)
+            
             
             time.sleep(5)
         

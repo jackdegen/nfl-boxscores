@@ -11,10 +11,22 @@ class Filing:
         self.data_dir = os.getcwd().replace('src', 'data')
         self.season_dir = os.path.join(self.data_dir, season)
         self.boxscores_dir = os.path.join(self.season_dir, 'boxscores')
-        self.snapcounts_dir = os.path.join(self.season_dir, 'snap-counts')
+        self.snap_counts_dir = os.path.join(self.season_dir, 'snap-counts')
 
+        self.advanced_stats_dir = os.path.join(self.season_dir, 'advanced-stats')
+        self.advanced_passing_dir = os.path.join(self.advanced_stats_dir, 'passing')
+        self.advanced_rushing_dir = os.path.join(self.advanced_stats_dir, 'rushing')
+        self.advanced_receiving_dir = os.path.join(self.advanced_stats_dir, 'receiving')
+
+        # print([directory_ for directory_ in dir(self) if 'dir' in directory_ and directory_ != '__dir__'])
+        
         # Check to make sure if directories exist, if not create them
-        for directory in (self.data_dir, self.season_dir, self.boxscores_dir, self.snapcounts_dir):
+        # Use builtin OOP property to get all variables with dir in them besides __dir__ builtin
+        # That way dont need to keep adding new dirs to iterable as long as define them with dir in variable name
+        # Can optimize a little bit by working backwards 
+        #      --> if advanced_passing_dir exists, then advanced_stats_dir exists, which means that season_dir exists etc.
+        # for directory in [directory_ for directory_ in dir(self) if 'dir' in directory_ and directory_ != '__dir__']:
+        for directory in (self.data_dir, self.season_dir, self.boxscores_dir, self.snap_counts_dir, self.advanced_stats_dir, self.advanced_passing_dir, self.advanced_rushing_dir, self.advanced_receiving_dir):
             if not os.path.exists(directory):
                 os.mkdir(directory)
 
@@ -43,8 +55,23 @@ class Filing:
         Saves in form of team-week#.csv
         """
         filename = f'{team}-week{week}.csv'
-        fpath = os.path.join(self.snapcounts_dir, filename)
+        fpath = os.path.join(self.snap_counts_dir, filename)
         df.to_csv(fpath, index=False)
+
+        return
+
+
+    def save_advanced_stats(self, df: pd.DataFrame, stat_category: str, team: str, week: str) -> None:
+        """
+        Save advanced stats for team from specific weak, where stat_category is one of (passing, rushing, receiving)
+        Saves in stat_category directory in form of team-week#.csv
+        Example: Advanced passing from Bills weak one: data_dir/season_dir/advanced-stats/passing/buf-week1.csv
+        """
+        filename = f'{team}-week{week}.csv'
+        fpath = os.path.join(self.advanced_stats_dir, stat_category, filename)
+        df.to_csv(fpath, index=False)
+
+        return
 
     
     def combined(self, **kwargs) -> pd.DataFrame:
