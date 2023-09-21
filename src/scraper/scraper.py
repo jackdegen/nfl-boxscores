@@ -81,7 +81,7 @@ class Scraper:
             no_pct_sign = stat_val[:-1]
             return round( float(no_pct_sign)/100, 3 ) if len(no_pct_sign) else 0.0
     
-        if not len(stat_val) or stat_val = ' ':
+        if not len(stat_val) or stat_val == ' ':
             return 0.0
     
         return float(stat_val) if '.' in stat_val else int(stat_val)
