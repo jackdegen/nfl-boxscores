@@ -75,7 +75,7 @@ class Scraper:
 
     def parse_adv_stat(self, stat: str, stat_val: str):
         if stat == 'team':
-            return stat_val
+            return standardize_initials(stat_val)
     
         if 'pct' in stat or '%' in stat_val: # Just in case
             no_pct_sign = stat_val[:-1]
