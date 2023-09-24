@@ -1,13 +1,13 @@
-name,pos,snap_total,snap_percent,team,opp
-Joshua Dobbs,QB,65,1.0,ARI,NYG
-Marquise Brown,WR,61,0.94,ARI,NYG
-James Conner,RB,47,0.72,ARI,NYG
-Zach Ertz,TE,44,0.68,ARI,NYG
-Rondale Moore,WR,42,0.65,ARI,NYG
-Trey McBride,TE,33,0.51,ARI,NYG
-Geoff Swaim,TE,28,0.43,ARI,NYG
-Michael Wilson,WR,28,0.43,ARI,NYG
-Zach Pascal,WR,23,0.35,ARI,NYG
-Keaontay Ingram,RB,10,0.15,ARI,NYG
-Emari Demercado,RB,8,0.12,ARI,NYG
-Greg Dortch,WR,0,0.0,ARI,NYG
+name,pos,snap_total,snap_percent,team,opp,week
+Joshua Dobbs,QB,65,1.0,ARI,NYG,2
+Marquise Brown,WR,61,0.94,ARI,NYG,2
+James Conner,RB,47,0.72,ARI,NYG,2
+Zach Ertz,TE,44,0.68,ARI,NYG,2
+Rondale Moore,WR,42,0.65,ARI,NYG,2
+Trey McBride,TE,33,0.51,ARI,NYG,2
+Geoff Swaim,TE,28,0.43,ARI,NYG,2
+Michael Wilson,WR,28,0.43,ARI,NYG,2
+Zach Pascal,WR,23,0.35,ARI,NYG,2
+Keaontay Ingram,RB,10,0.15,ARI,NYG,2
+Emari Demercado,RB,8,0.12,ARI,NYG,2
+Greg Dortch,WR,0,0.0,ARI,NYG,2

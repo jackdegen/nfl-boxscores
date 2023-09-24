@@ -1,14 +1,14 @@
-name,pos,snap_total,snap_percent,team,opp
-Sam Howell,QB,71,1.0,WAS,ARI
-Terry McLaurin,WR,63,0.89,WAS,ARI
-Jahan Dotson,WR,62,0.87,WAS,ARI
-Logan Thomas,TE,58,0.82,WAS,ARI
-Curtis Samuel,WR,46,0.65,WAS,ARI
-Brian Robinson,RB,43,0.61,WAS,ARI
-John Bates,TE,26,0.37,WAS,ARI
-Antonio Gibson,RB,25,0.35,WAS,ARI
-Dyami Brown,WR,19,0.27,WAS,ARI
-Cole Turner,TE,10,0.14,WAS,ARI
-Chris Rodriguez,RB,3,0.04,WAS,ARI
-Jamison Crowder,WR,0,0.0,WAS,ARI
-Byron Pringle,WR,0,0.0,WAS,ARI
+name,pos,snap_total,snap_percent,team,opp,week
+Sam Howell,QB,71,1.0,WAS,ARI,1
+Terry McLaurin,WR,63,0.89,WAS,ARI,1
+Jahan Dotson,WR,62,0.87,WAS,ARI,1
+Logan Thomas,TE,58,0.82,WAS,ARI,1
+Curtis Samuel,WR,46,0.65,WAS,ARI,1
+Brian Robinson,RB,43,0.61,WAS,ARI,1
+John Bates,TE,26,0.37,WAS,ARI,1
+Antonio Gibson,RB,25,0.35,WAS,ARI,1
+Dyami Brown,WR,19,0.27,WAS,ARI,1
+Cole Turner,TE,10,0.14,WAS,ARI,1
+Chris Rodriguez,RB,3,0.04,WAS,ARI,1
+Jamison Crowder,WR,0,0.0,WAS,ARI,1
+Byron Pringle,WR,0,0.0,WAS,ARI,1

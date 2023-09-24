@@ -1,0 +1,2 @@
+name,pos,team,pass_cmp,pass_att,pass_yds,pass_first_down,pass_first_down_pct,pass_target_yds,pass_tgt_yds_per_att,pass_air_yds,pass_air_yds_per_cmp,pass_air_yds_per_att,pass_yac,pass_yac_per_cmp,pass_drops,pass_drop_pct,pass_poor_throws,pass_poor_throw_pct,pass_sacked,pass_blitzed,pass_hurried,pass_hits,pass_pressured,pass_pressured_pct,rush_scrambles,rush_scrambles_yds_per_att
+Ryan Tannehill,QB,TEN,16,34,198,8,0.21,310,9.1,74,4.6,2.2,124,7.8,3,0.091,3,0.091,3,13,0,5,8,0.2,3,1.7

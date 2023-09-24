@@ -1,0 +1,4 @@
+name,pos,team,rush_att,rush_yds,rush_td,rush_first_down,rush_yds_before_contact,rush_yds_bc_per_rush,rush_yac,rush_yac_per_rush,rush_broken_tackles,rush_broken_tackles_per_rush
+Saquon Barkley,RB,NYG,17,63,1,5.0,27,1.6,36,2.1,3,5.7
+Daniel Jones,QB,NYG,9,59,1,5.0,59,6.6,0,0.0,0,0.0
+Matt Breida,RB,NYG,1,5,0,0.0,5,5.0,0,0.0,0,0.0

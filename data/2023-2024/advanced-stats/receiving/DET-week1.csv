@@ -1,0 +1,8 @@
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
+Amon-Ra St,WR,DET,9,6,71,1,4.0,51,8.5,20,3.3,6.7,0,0.0,0,0.0,0,127.5
+Sam LaPorta,TE,DET,5,5,39,0,2.0,20,4.0,19,3.8,4.0,0,0.0,0,0.0,0,99.2
+Josh Reynolds,WR,DET,7,4,80,0,4.0,52,13.0,28,7.0,10.0,0,0.0,1,0.14,0,97.3
+Brock Wright,TE,DET,2,2,17,0,0.0,6,3.0,11,5.5,3.0,0,0.0,0,0.0,0,102.1
+Jahmyr Gibbs,RB,DET,2,2,18,0,1.0,-6,-3.0,24,12.0,-3.0,0,0.0,0,0.0,0,104.2
+Marvin Jones,WR,DET,6,2,8,0,0.0,4,2.0,4,2.0,8.3,0,0.0,2,0.33,0,42.4
+Kalif Raymond,WR,DET,1,1,20,0,0.0,17,17.0,3,3.0,17.0,0,0.0,0,0.0,0,118.7

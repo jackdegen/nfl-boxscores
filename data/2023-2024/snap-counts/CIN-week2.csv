@@ -1,14 +1,14 @@
-name,pos,snap_total,snap_percent,team,opp
-Joe Burrow,QB,60,1.0,CIN,BAL
-Ja'Marr Chase,WR,59,0.98,CIN,BAL
-Tyler Boyd,WR,55,0.92,CIN,BAL
-Tee Higgins,WR,53,0.88,CIN,BAL
-Joe Mixon,RB,47,0.78,CIN,BAL
-Irv Smith,TE,46,0.77,CIN,BAL
-Drew Sample,TE,14,0.23,CIN,BAL
-Trenton Irwin,WR,11,0.18,CIN,BAL
-Trayveon Williams,RB,10,0.17,CIN,BAL
-Mitchell Wilcox,TE,2,0.03,CIN,BAL
-Andrei Iosivas,WR,2,0.03,CIN,BAL
-Chase Brown,RB,1,0.02,CIN,BAL
-Charlie Jones,WR,0,0.0,CIN,BAL
+name,pos,snap_total,snap_percent,team,opp,week
+Joe Burrow,QB,60,1.0,CIN,BAL,2
+Ja'Marr Chase,WR,59,0.98,CIN,BAL,2
+Tyler Boyd,WR,55,0.92,CIN,BAL,2
+Tee Higgins,WR,53,0.88,CIN,BAL,2
+Joe Mixon,RB,47,0.78,CIN,BAL,2
+Irv Smith,TE,46,0.77,CIN,BAL,2
+Drew Sample,TE,14,0.23,CIN,BAL,2
+Trenton Irwin,WR,11,0.18,CIN,BAL,2
+Trayveon Williams,RB,10,0.17,CIN,BAL,2
+Mitchell Wilcox,TE,2,0.03,CIN,BAL,2
+Andrei Iosivas,WR,2,0.03,CIN,BAL,2
+Chase Brown,RB,1,0.02,CIN,BAL,2
+Charlie Jones,WR,0,0.0,CIN,BAL,2

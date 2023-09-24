@@ -1,13 +1,13 @@
-name,pos,snap_total,snap_percent,team,opp
-Desmond Ridder,QB,82,1.0,ATL,GB
-Drake London,WR,67,0.82,ATL,GB
-Bijan Robinson,RB,59,0.72,ATL,GB
-Mack Hollins,WR,58,0.71,ATL,GB
-Kyle Pitts,TE,57,0.7,ATL,GB
-Jonnu Smith,TE,55,0.67,ATL,GB
-MyCole Pruitt,TE,38,0.46,ATL,GB
-Tyler Allgeier,RB,36,0.44,ATL,GB
-KhaDarel Hodge,WR,11,0.13,ATL,GB
-Scott Miller,WR,10,0.12,ATL,GB
-Godwin Igwebuike,RB,1,0.01,ATL,GB
-John FitzPatrick,TE,1,0.01,ATL,GB
+name,pos,snap_total,snap_percent,team,opp,week
+Desmond Ridder,QB,82,1.0,ATL,GB,2
+Drake London,WR,67,0.82,ATL,GB,2
+Bijan Robinson,RB,59,0.72,ATL,GB,2
+Mack Hollins,WR,58,0.71,ATL,GB,2
+Kyle Pitts,TE,57,0.7,ATL,GB,2
+Jonnu Smith,TE,55,0.67,ATL,GB,2
+MyCole Pruitt,TE,38,0.46,ATL,GB,2
+Tyler Allgeier,RB,36,0.44,ATL,GB,2
+KhaDarel Hodge,WR,11,0.13,ATL,GB,2
+Scott Miller,WR,10,0.12,ATL,GB,2
+Godwin Igwebuike,RB,1,0.01,ATL,GB,2
+John FitzPatrick,TE,1,0.01,ATL,GB,2

@@ -1,12 +1,12 @@
-name,pos,snap_total,snap_percent,team,opp
-Derek Carr,QB,69,0.9,NO,CAR
-Juwan Johnson,TE,62,0.81,NO,CAR
-Chris Olave,WR,61,0.79,NO,CAR
-Michael Thomas,WR,60,0.78,NO,CAR
-Tony Jones,RB,40,0.52,NO,CAR
-Rashid Shaheed,WR,38,0.49,NO,CAR
-Foster Moreau,TE,36,0.47,NO,CAR
-Taysom Hill,QB,31,0.4,NO,CAR
-Jamaal Williams,RB,18,0.23,NO,CAR
-Keith Kirkwood,WR,17,0.22,NO,CAR
-Jimmy Graham,TE,10,0.13,NO,CAR
+name,pos,snap_total,snap_percent,team,opp,week
+Derek Carr,QB,69,0.9,NO,CAR,2
+Juwan Johnson,TE,62,0.81,NO,CAR,2
+Chris Olave,WR,61,0.79,NO,CAR,2
+Michael Thomas,WR,60,0.78,NO,CAR,2
+Tony Jones,RB,40,0.52,NO,CAR,2
+Rashid Shaheed,WR,38,0.49,NO,CAR,2
+Foster Moreau,TE,36,0.47,NO,CAR,2
+Taysom Hill,QB,31,0.4,NO,CAR,2
+Jamaal Williams,RB,18,0.23,NO,CAR,2
+Keith Kirkwood,WR,17,0.22,NO,CAR,2
+Jimmy Graham,TE,10,0.13,NO,CAR,2

@@ -1,0 +1,3 @@
+name,pos,team,pass_cmp,pass_att,pass_yds,pass_first_down,pass_first_down_pct,pass_target_yds,pass_tgt_yds_per_att,pass_air_yds,pass_air_yds_per_cmp,pass_air_yds_per_att,pass_yac,pass_yac_per_cmp,pass_drops,pass_drop_pct,pass_poor_throws,pass_poor_throw_pct,pass_sacked,pass_blitzed,pass_hurried,pass_hits,pass_pressured,pass_pressured_pct,rush_scrambles,rush_scrambles_yds_per_att
+Joe Burrow,QB,CIN,14,31,82,3.0,0.09,221,7.1,31,2.2,1.0,51,3.6,3,0.1,10,0.333,2,13,0,7,9,0.273,0,0.0
+Jake Browning,QB,CIN,0,1,0,0.0,0.0,15,15.0,0,0.0,0.0,0,0.0,0,0.0,0,0.0,0,1,0,1,1,1.0,0,0.0

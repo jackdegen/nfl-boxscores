@@ -1,0 +1,9 @@
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
+Davante Adams,WR,LV,8,6,84,1,5.0,63,10.5,21,3.5,11.1,0,0.0,0,0.0,0,147.9
+Josh Jacobs,RB,LV,6,5,51,0,3.0,14,2.8,37,7.4,2.8,0,0.0,0,0.0,1,62.5
+Austin Hooper,TE,LV,2,2,20,0,1.0,15,7.5,5,2.5,7.5,0,0.0,0,0.0,0,108.3
+Ameer Abdullah,RB,LV,3,1,5,0,0.0,4,4.0,1,1.0,0.7,0,0.0,0,0.0,1,2.8
+Michael Mayer,TE,LV,1,1,2,0,0.0,2,2.0,0,0.0,2.0,0,0.0,0,0.0,0,79.2
+Hunter Renfrow,WR,LV,1,1,23,0,1.0,23,23.0,0,0.0,23.0,0,0.0,0,0.0,0,118.7
+DeAndre Carter,WR,LV,1,0,0,0,0.0,0,0.0,0,0.0,14.0,0,0.0,0,0.0,0,39.6
+Tre Tucker,WR,LV,1,0,0,0,0.0,0,0.0,0,0.0,42.0,0,0.0,0,0.0,0,39.6

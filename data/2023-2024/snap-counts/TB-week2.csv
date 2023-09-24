@@ -1,13 +1,13 @@
-name,pos,snap_total,snap_percent,team,opp
-Baker Mayfield,QB,71,1.0,TB,CHI
-Cade Otton,TE,69,0.97,TB,CHI
-Chris Godwin,WR,53,0.75,TB,CHI
-Rachaad White,RB,51,0.72,TB,CHI
-Mike Evans,WR,43,0.61,TB,CHI
-Trey Palmer,WR,35,0.49,TB,CHI
-Deven Thompkins,WR,32,0.45,TB,CHI
-Ko Kieft,TE,18,0.25,TB,CHI
-David Wells,TE,18,0.25,TB,CHI
-Sean Tucker,RB,17,0.24,TB,CHI
-Rakim Jarrett,WR,16,0.23,TB,CHI
-Chase Edmonds,RB,3,0.04,TB,CHI
+name,pos,snap_total,snap_percent,team,opp,week
+Baker Mayfield,QB,71,1.0,TB,CHI,2
+Cade Otton,TE,69,0.97,TB,CHI,2
+Chris Godwin,WR,53,0.75,TB,CHI,2
+Rachaad White,RB,51,0.72,TB,CHI,2
+Mike Evans,WR,43,0.61,TB,CHI,2
+Trey Palmer,WR,35,0.49,TB,CHI,2
+Deven Thompkins,WR,32,0.45,TB,CHI,2
+Ko Kieft,TE,18,0.25,TB,CHI,2
+David Wells,TE,18,0.25,TB,CHI,2
+Sean Tucker,RB,17,0.24,TB,CHI,2
+Rakim Jarrett,WR,16,0.23,TB,CHI,2
+Chase Edmonds,RB,3,0.04,TB,CHI,2

@@ -1,0 +1,10 @@
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
+Keenan Allen,WR,LAC,9,6,76,0,2.0,50,8.3,26,4.3,11.7,1,6.0,0,0.0,0,92.8
+Austin Ekeler,RB,LAC,5,4,47,0,2.0,3,0.8,44,11.0,4.6,0,0.0,0,0.0,0,105.8
+Mike Williams,WR,LAC,5,4,45,0,1.0,35,8.8,10,2.5,8.4,0,0.0,0,0.0,0,104.2
+Donald Parham,TE,LAC,3,3,22,1,2.0,12,4.0,10,3.3,4.0,0,0.0,0,0.0,0,136.8
+Quentin Johnston,WR,LAC,3,2,9,0,1.0,7,3.5,2,1.0,12.0,0,0.0,0,0.0,0,70.1
+Gerald Everett,TE,LAC,3,2,21,0,2.0,1,0.5,20,10.0,2.3,2,1.0,0,0.0,0,86.8
+Josh Palmer,WR,LAC,1,1,4,0,0.0,3,3.0,1,1.0,3.0,0,0.0,0,0.0,0,83.3
+Derius Davis,WR,LAC,1,1,5,0,0.0,-4,-4.0,9,9.0,-4.0,0,0.0,0,0.0,0,87.5
+Joshua Kelley,RB,LAC,1,0,0,0,0.0,0,0.0,0,0.0,5.0,0,0.0,1,1.0,0,39.6

@@ -1,13 +1,13 @@
-name,pos,snap_total,snap_percent,team,opp
-Josh Allen,QB,69,1.0,BUF,NYJ
-Gabe Davis,WR,65,0.94,BUF,NYJ
-Stefon Diggs,WR,58,0.84,BUF,NYJ
-Dawson Knox,TE,58,0.84,BUF,NYJ
-Dalton Kincaid,TE,55,0.8,BUF,NYJ
-James Cook,RB,41,0.59,BUF,NYJ
-Latavius Murray,RB,16,0.23,BUF,NYJ
-Deonte Harty,WR,15,0.22,BUF,NYJ
-Trent Sherfield,WR,11,0.16,BUF,NYJ
-Damien Harris,RB,9,0.13,BUF,NYJ
-Khalil Shakir,WR,7,0.1,BUF,NYJ
-Quintin Morris,TE,6,0.09,BUF,NYJ
+name,pos,snap_total,snap_percent,team,opp,week
+Josh Allen,QB,69,1.0,BUF,NYJ,1
+Gabe Davis,WR,65,0.94,BUF,NYJ,1
+Stefon Diggs,WR,58,0.84,BUF,NYJ,1
+Dawson Knox,TE,58,0.84,BUF,NYJ,1
+Dalton Kincaid,TE,55,0.8,BUF,NYJ,1
+James Cook,RB,41,0.59,BUF,NYJ,1
+Latavius Murray,RB,16,0.23,BUF,NYJ,1
+Deonte Harty,WR,15,0.22,BUF,NYJ,1
+Trent Sherfield,WR,11,0.16,BUF,NYJ,1
+Damien Harris,RB,9,0.13,BUF,NYJ,1
+Khalil Shakir,WR,7,0.1,BUF,NYJ,1
+Quintin Morris,TE,6,0.09,BUF,NYJ,1

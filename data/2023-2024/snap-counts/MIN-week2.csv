@@ -1,13 +1,13 @@
-name,pos,snap_total,snap_percent,team,opp
-Justin Jefferson,WR,58,1.0,MIN,PHI
-Kirk Cousins,QB,58,1.0,MIN,PHI
-KJ Osborn,WR,56,0.97,MIN,PHI
-TJ Hockenson,TE,50,0.86,MIN,PHI
-Alexander Mattison,RB,44,0.76,MIN,PHI
-Jordan Addison,WR,40,0.69,MIN,PHI
-Josh Oliver,TE,20,0.34,MIN,PHI
-Ty Chandler,RB,7,0.12,MIN,PHI
-Jalen Nailor,WR,1,0.02,MIN,PHI
-Johnny Mundt,TE,1,0.02,MIN,PHI
-Brandon Powell,WR,0,0.0,MIN,PHI
-Myles Gaskin,RB,0,0.0,MIN,PHI
+name,pos,snap_total,snap_percent,team,opp,week
+Justin Jefferson,WR,58,1.0,MIN,PHI,2
+Kirk Cousins,QB,58,1.0,MIN,PHI,2
+KJ Osborn,WR,56,0.97,MIN,PHI,2
+TJ Hockenson,TE,50,0.86,MIN,PHI,2
+Alexander Mattison,RB,44,0.76,MIN,PHI,2
+Jordan Addison,WR,40,0.69,MIN,PHI,2
+Josh Oliver,TE,20,0.34,MIN,PHI,2
+Ty Chandler,RB,7,0.12,MIN,PHI,2
+Jalen Nailor,WR,1,0.02,MIN,PHI,2
+Johnny Mundt,TE,1,0.02,MIN,PHI,2
+Brandon Powell,WR,0,0.0,MIN,PHI,2
+Myles Gaskin,RB,0,0.0,MIN,PHI,2

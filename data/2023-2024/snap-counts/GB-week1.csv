@@ -1,15 +1,15 @@
-name,pos,snap_total,snap_percent,team,opp
-Jordan Love,QB,55,0.92,GB,CHI
-Luke Musgrave,TE,45,0.75,GB,CHI
-Dontayvion Wicks,WR,37,0.62,GB,CHI
-Jayden Reed,WR,32,0.53,GB,CHI
-Malik Heath,WR,29,0.48,GB,CHI
-AJ Dillon,RB,29,0.48,GB,CHI
-Romeo Doubs,WR,29,0.48,GB,CHI
-Aaron Jones,RB,28,0.47,GB,CHI
-Samori Toure,WR,21,0.35,GB,CHI
-Josiah Deguara,TE,19,0.32,GB,CHI
-Tucker Kraft,TE,13,0.22,GB,CHI
-Ben Sims,TE,9,0.15,GB,CHI
-Patrick Taylor,RB,7,0.12,GB,CHI
-Sean Clifford,QB,5,0.08,GB,CHI
+name,pos,snap_total,snap_percent,team,opp,week
+Jordan Love,QB,55,0.92,GB,CHI,1
+Luke Musgrave,TE,45,0.75,GB,CHI,1
+Dontayvion Wicks,WR,37,0.62,GB,CHI,1
+Jayden Reed,WR,32,0.53,GB,CHI,1
+Malik Heath,WR,29,0.48,GB,CHI,1
+AJ Dillon,RB,29,0.48,GB,CHI,1
+Romeo Doubs,WR,29,0.48,GB,CHI,1
+Aaron Jones,RB,28,0.47,GB,CHI,1
+Samori Toure,WR,21,0.35,GB,CHI,1
+Josiah Deguara,TE,19,0.32,GB,CHI,1
+Tucker Kraft,TE,13,0.22,GB,CHI,1
+Ben Sims,TE,9,0.15,GB,CHI,1
+Patrick Taylor,RB,7,0.12,GB,CHI,1
+Sean Clifford,QB,5,0.08,GB,CHI,1

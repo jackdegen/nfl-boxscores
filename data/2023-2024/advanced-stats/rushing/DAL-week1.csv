@@ -1,0 +1,6 @@
+name,pos,team,rush_att,rush_yds,rush_td,rush_first_down,rush_yds_before_contact,rush_yds_bc_per_rush,rush_yac,rush_yac_per_rush,rush_broken_tackles,rush_broken_tackles_per_rush
+Tony Pollard,RB,DAL,14,70,2,5.0,43,3.1,27,1.9,0,0.0
+Rico Dowdle,RB,DAL,6,24,0,1.0,14,2.3,10,1.7,0,0.0
+Deuce Vaughn,RB,DAL,6,8,0,0.0,6,1.0,2,0.3,0,0.0
+KaVontae Turpin,WR,DAL,3,14,1,1.0,9,3.0,5,1.7,0,0.0
+Dak Prescott,QB,DAL,1,6,0,0.0,6,6.0,0,0.0,0,0.0

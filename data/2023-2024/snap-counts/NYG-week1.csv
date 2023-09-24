@@ -1,16 +1,16 @@
-name,pos,snap_total,snap_percent,team,opp
-Daniel Jones,QB,67,0.96,NYG,DAL
-Darius Slayton,WR,47,0.67,NYG,DAL
-Parris Campbell,WR,47,0.67,NYG,DAL
-Saquon Barkley,RB,45,0.64,NYG,DAL
-Daniel Bellinger,TE,44,0.63,NYG,DAL
-Isaiah Hodgins,WR,42,0.6,NYG,DAL
-Darren Waller,TE,38,0.54,NYG,DAL
-Jalin Hyatt,WR,25,0.36,NYG,DAL
-Lawrence Cager,TE,20,0.29,NYG,DAL
-Matt Breida,RB,16,0.23,NYG,DAL
-Sterling Shepard,WR,14,0.2,NYG,DAL
-Gary Brightwell,RB,11,0.16,NYG,DAL
-Tyrod Taylor,QB,3,0.04,NYG,DAL
-Taiwan Jones,RB,0,0.0,NYG,DAL
-Eric Gray,RB,0,0.0,NYG,DAL
+name,pos,snap_total,snap_percent,team,opp,week
+Daniel Jones,QB,67,0.96,NYG,DAL,1
+Darius Slayton,WR,47,0.67,NYG,DAL,1
+Parris Campbell,WR,47,0.67,NYG,DAL,1
+Saquon Barkley,RB,45,0.64,NYG,DAL,1
+Daniel Bellinger,TE,44,0.63,NYG,DAL,1
+Isaiah Hodgins,WR,42,0.6,NYG,DAL,1
+Darren Waller,TE,38,0.54,NYG,DAL,1
+Jalin Hyatt,WR,25,0.36,NYG,DAL,1
+Lawrence Cager,TE,20,0.29,NYG,DAL,1
+Matt Breida,RB,16,0.23,NYG,DAL,1
+Sterling Shepard,WR,14,0.2,NYG,DAL,1
+Gary Brightwell,RB,11,0.16,NYG,DAL,1
+Tyrod Taylor,QB,3,0.04,NYG,DAL,1
+Taiwan Jones,RB,0,0.0,NYG,DAL,1
+Eric Gray,RB,0,0.0,NYG,DAL,1

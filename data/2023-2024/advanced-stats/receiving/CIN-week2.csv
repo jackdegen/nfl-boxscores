@@ -1,0 +1,7 @@
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
+Tee Higgins,WR,CIN,12,8,89,2,6.0,57,7.1,32,4.0,10.4,0,0.0,0,0.0,1,93.4
+Tyler Boyd,WR,CIN,8,6,52,0,3.0,29,4.8,23,3.8,3.4,0,0.0,1,0.12,0,91.7
+Ja'Marr Chase,WR,CIN,8,5,31,0,2.0,6,1.2,25,5.0,4.5,0,0.0,0,0.0,0,70.3
+Joe Mixon,RB,CIN,5,4,36,0,1.0,-7,-1.8,43,10.8,-1.4,0,0.0,1,0.2,0,96.7
+Irv Smith,TE,CIN,4,2,10,0,1.0,6,3.0,4,2.0,10.0,0,0.0,0,0.0,0,56.2
+Trayveon Williams,RB,CIN,2,2,4,0,0.0,-11,-5.5,15,7.5,-5.5,0,0.0,0,0.0,0,79.2

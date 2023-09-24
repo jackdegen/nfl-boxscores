@@ -1,0 +1,9 @@
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
+Courtland Sutton,WR,DEN,7,5,66,0,3.0,53,10.6,13,2.6,10.3,0,0.0,0,0.0,1,61.3
+Samaje Perine,RB,DEN,4,3,20,0,0.0,-3,-1.0,23,7.7,-2.0,0,0.0,0,0.0,0,85.4
+Jerry Jeudy,WR,DEN,5,3,25,0,1.0,7,2.3,18,6.0,8.2,0,0.0,0,0.0,0,72.9
+Marvin Mims,WR,DEN,2,2,113,1,2.0,91,45.5,22,11.0,45.5,0,0.0,0,0.0,0,158.3
+Brandon Johnson,WR,DEN,3,2,66,2,2.0,49,24.5,17,8.5,18.3,0,0.0,0,0.0,0,149.3
+Javonte Williams,RB,DEN,3,2,14,0,0.0,-2,-1.0,16,8.0,1.0,0,0.0,0,0.0,0,77.1
+Lil'Jordan Humphrey,WR,DEN,2,1,4,0,0.0,3,3.0,1,1.0,13.0,0,0.0,0,0.0,0,56.2
+Adam Trautman,TE,DEN,1,0,0,0,0.0,0,0.0,0,0.0,4.0,0,0.0,0,0.0,0,39.6

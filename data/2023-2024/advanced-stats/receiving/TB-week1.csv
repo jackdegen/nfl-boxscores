@@ -1,0 +1,9 @@
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
+Mike Evans,WR,TB,10,6,66,1,2.0,54,9.0,12,2.0,12.0,1,6.0,1,0.1,0,112.9
+Chris Godwin,WR,TB,6,5,51,0,4.0,39,7.8,12,2.4,6.0,0,0.0,0,0.0,0,102.1
+Cade Otton,TE,TB,3,2,19,0,1.0,6,3.0,13,6.5,5.7,0,0.0,0,0.0,0,84.0
+Trey Palmer,WR,TB,3,2,8,1,1.0,8,4.0,0,0.0,4.3,0,0.0,0,0.0,0,109.7
+Deven Thompkins,WR,TB,3,2,10,0,1.0,-1,-0.5,11,5.5,6.3,0,0.0,0,0.0,0,71.5
+Sean Tucker,RB,TB,2,2,9,0,0.0,-3,-1.5,12,6.0,-1.5,0,0.0,0,0.0,0,85.4
+Rachaad White,RB,TB,2,2,10,0,0.0,-13,-6.5,23,11.5,-6.5,0,0.0,0,0.0,0,87.5
+Ko Kieft,TE,TB,3,0,0,0,0.0,0,0.0,0,0.0,17.0,0,0.0,0,0.0,0,39.6

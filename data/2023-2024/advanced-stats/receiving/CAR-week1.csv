@@ -1,0 +1,9 @@
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
+Hayden Hurst,TE,CAR,7,5,41,1,3.0,28,5.6,13,2.6,8.1,1,5.0,0,0.0,1,86.0
+Miles Sanders,RB,CAR,6,4,26,0,1.0,-1,-0.3,27,6.8,-0.7,1,4.0,0,0.0,0,75.7
+Chuba Hubbard,RB,CAR,2,2,9,0,0.0,-4,-2.0,13,6.5,-2.0,0,0.0,0,0.0,0,85.4
+Terrace Marshall,WR,CAR,6,2,23,0,2.0,17,8.5,6,3.0,15.8,0,0.0,0,0.0,1,6.2
+Jonathan Mingo,WR,CAR,5,2,17,0,1.0,17,8.5,0,0.0,17.4,0,0.0,0,0.0,0,49.6
+Laviska Shenault,WR,CAR,2,2,16,0,1.0,-11,-5.5,27,13.5,-5.5,1,2.0,0,0.0,0,100.0
+Adam Thielen,WR,CAR,2,2,12,0,1.0,9,4.5,3,1.5,4.5,0,0.0,0,0.0,0,91.7
+Giovanni Ricci,TE,CAR,1,1,2,0,0.0,-1,-1.0,3,3.0,-1.0,0,0.0,0,0.0,0,79.2

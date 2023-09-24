@@ -1,0 +1,7 @@
+name,pos,team,rush_att,rush_yds,rush_td,rush_first_down,rush_yds_before_contact,rush_yds_bc_per_rush,rush_yac,rush_yac_per_rush,rush_broken_tackles,rush_broken_tackles_per_rush
+Joe Mixon,RB,CIN,13,56,0,2.0,15,1.2,41,3.2,1,13.0
+Chris Evans,RB,CIN,2,12,0,0.0,7,3.5,5,2.5,0,0.0
+Trayveon Williams,RB,CIN,2,7,0,0.0,2,1.0,5,2.5,0,0.0
+Jake Browning,QB,CIN,1,-1,0,0.0,-1,-1.0,0,0.0,0,0.0
+Joe Burrow,QB,CIN,1,-1,0,0.0,-1,-1.0,0,0.0,0,0.0
+Ja'Marr Chase,WR,CIN,1,2,0,0.0,0,0.0,2,2.0,0,0.0

@@ -1,13 +1,13 @@
-name,pos,snap_total,snap_percent,team,opp
-Geno Smith,QB,72,1.0,SEA,DET
-Tyler Lockett,WR,61,0.85,SEA,DET
-DK Metcalf,WR,60,0.83,SEA,DET
-Kenneth Walker,RB,44,0.61,SEA,DET
-Jaxon Smith-Njigba,WR,40,0.56,SEA,DET
-Will Dissly,TE,38,0.53,SEA,DET
-Colby Parkinson,TE,37,0.51,SEA,DET
-Noah Fant,TE,34,0.47,SEA,DET
-Zach Charbonnet,RB,19,0.26,SEA,DET
-Jake Bobo,WR,17,0.24,SEA,DET
-DeeJay Dallas,RB,9,0.12,SEA,DET
-Cody Thompson,WR,1,0.01,SEA,DET
+name,pos,snap_total,snap_percent,team,opp,week
+Geno Smith,QB,72,1.0,SEA,DET,2
+Tyler Lockett,WR,62,0.86,SEA,DET,2
+DK Metcalf,WR,60,0.83,SEA,DET,2
+Kenneth Walker,RB,44,0.61,SEA,DET,2
+Jaxon Smith-Njigba,WR,40,0.56,SEA,DET,2
+Will Dissly,TE,37,0.51,SEA,DET,2
+Colby Parkinson,TE,36,0.5,SEA,DET,2
+Noah Fant,TE,34,0.47,SEA,DET,2
+Zach Charbonnet,RB,19,0.26,SEA,DET,2
+Jake Bobo,WR,18,0.25,SEA,DET,2
+DeeJay Dallas,RB,9,0.12,SEA,DET,2
+Cody Thompson,WR,1,0.01,SEA,DET,2

@@ -1,13 +1,13 @@
-name,pos,snap_total,snap_percent,team,opp
-Jared Goff,QB,66,1.0,DET,SEA
-Sam LaPorta,TE,54,0.82,DET,SEA
-Josh Reynolds,WR,53,0.8,DET,SEA
-Amon-Ra St,WR,49,0.74,DET,SEA
-Marvin Jones,WR,34,0.52,DET,SEA
-Jahmyr Gibbs,RB,32,0.48,DET,SEA
-David Montgomery,RB,30,0.45,DET,SEA
-Kalif Raymond,WR,28,0.42,DET,SEA
-Brock Wright,TE,26,0.39,DET,SEA
-Craig Reynolds,RB,10,0.15,DET,SEA
-Antoine Green,WR,7,0.11,DET,SEA
-James Mitchell,TE,2,0.03,DET,SEA
+name,pos,snap_total,snap_percent,team,opp,week
+Jared Goff,QB,66,1.0,DET,SEA,2
+Sam LaPorta,TE,54,0.82,DET,SEA,2
+Josh Reynolds,WR,53,0.8,DET,SEA,2
+Amon-Ra St,WR,49,0.74,DET,SEA,2
+Marvin Jones,WR,34,0.52,DET,SEA,2
+Jahmyr Gibbs,RB,32,0.48,DET,SEA,2
+David Montgomery,RB,30,0.45,DET,SEA,2
+Kalif Raymond,WR,28,0.42,DET,SEA,2
+Brock Wright,TE,26,0.39,DET,SEA,2
+Craig Reynolds,RB,10,0.15,DET,SEA,2
+Antoine Green,WR,7,0.11,DET,SEA,2
+James Mitchell,TE,2,0.03,DET,SEA,2

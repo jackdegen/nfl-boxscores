@@ -1,15 +1,15 @@
-name,pos,snap_total,snap_percent,team,opp
-Patrick Mahomes,QB,67,1.0,KC,JAX
-Marquez Valdes-Scantling,WR,55,0.82,KC,JAX
-Travis Kelce,TE,43,0.64,KC,JAX
-Noah Gray,TE,41,0.61,KC,JAX
-Skyy Moore,WR,39,0.58,KC,JAX
-Isiah Pacheco,RB,34,0.51,KC,JAX
-Justin Watson,WR,31,0.46,KC,JAX
-Jerick McKinnon,RB,22,0.33,KC,JAX
-Kadarius Toney,WR,19,0.28,KC,JAX
-Blake Bell,TE,15,0.22,KC,JAX
-Rashee Rice,WR,12,0.18,KC,JAX
-Clyde Edwards-Helaire,RB,11,0.16,KC,JAX
-Justyn Ross,WR,9,0.13,KC,JAX
-Richie James,WR,3,0.04,KC,JAX
+name,pos,snap_total,snap_percent,team,opp,week
+Patrick Mahomes,QB,67,1.0,KC,JAX,2
+Marquez Valdes-Scantling,WR,55,0.82,KC,JAX,2
+Travis Kelce,TE,43,0.64,KC,JAX,2
+Noah Gray,TE,41,0.61,KC,JAX,2
+Skyy Moore,WR,39,0.58,KC,JAX,2
+Isiah Pacheco,RB,34,0.51,KC,JAX,2
+Justin Watson,WR,31,0.46,KC,JAX,2
+Jerick McKinnon,RB,22,0.33,KC,JAX,2
+Kadarius Toney,WR,19,0.28,KC,JAX,2
+Blake Bell,TE,15,0.22,KC,JAX,2
+Rashee Rice,WR,12,0.18,KC,JAX,2
+Clyde Edwards-Helaire,RB,11,0.16,KC,JAX,2
+Justyn Ross,WR,9,0.13,KC,JAX,2
+Richie James,WR,3,0.04,KC,JAX,2

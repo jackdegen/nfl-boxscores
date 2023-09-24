@@ -1,0 +1,9 @@
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
+Romeo Doubs,WR,GB,5,4,26,2,3.0,18,4.5,8,2.0,5.4,0,0.0,0,0.0,0,127.9
+Luke Musgrave,TE,GB,4,3,50,0,1.0,41,13.7,9,3.0,18.0,0,0.0,0,0.0,0,116.7
+Samori Toure,WR,GB,3,2,18,0,1.0,13,6.5,5,2.5,20.7,0,0.0,0,0.0,0,82.6
+AJ Dillon,RB,GB,3,2,17,0,1.0,-7,-3.5,24,12.0,-2.0,1,2.0,1,0.33,0,81.2
+Jayden Reed,WR,GB,5,2,48,0,2.0,30,15.0,18,9.0,18.6,0,0.0,0,0.0,0,75.4
+Aaron Jones,RB,GB,4,2,86,1,2.0,1,0.5,85,42.5,-1.0,0,0.0,1,0.25,0,135.4
+Dontayvion Wicks,WR,GB,2,0,0,0,0.0,0,0.0,0,0.0,10.0,0,0.0,0,0.0,0,39.6
+Malik Heath,WR,GB,1,0,0,0,0.0,0,0.0,0,0.0,11.0,0,0.0,0,0.0,0,39.6

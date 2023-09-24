@@ -1,0 +1,2 @@
+name,pos,team,pass_cmp,pass_att,pass_yds,pass_first_down,pass_first_down_pct,pass_target_yds,pass_tgt_yds_per_att,pass_air_yds,pass_air_yds_per_cmp,pass_air_yds_per_att,pass_yac,pass_yac_per_cmp,pass_drops,pass_drop_pct,pass_poor_throws,pass_poor_throw_pct,pass_sacked,pass_blitzed,pass_hurried,pass_hits,pass_pressured,pass_pressured_pct,rush_scrambles,rush_scrambles_yds_per_att
+Sam Howell,QB,WAS,19,31,202,10,0.27,231,7.5,134,7.1,4.3,68,3.6,2,0.069,2,0.069,6,9,1,0,7,0.179,2,5.5

@@ -1,0 +1,9 @@
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
+Marquise Brown,WR,ARI,10,6,54,1,4.0,35,5.8,19,3.2,10.1,0,0.0,1,0.1,0,107.9
+Zach Ertz,TE,ARI,8,6,56,0,2.0,38,6.3,18,3.0,9.3,0,0.0,0,0.0,0,93.7
+Michael Wilson,WR,ARI,3,3,56,0,3.0,43,14.3,13,4.3,14.3,0,0.0,0,0.0,0,118.7
+Emari Demercado,RB,ARI,2,2,7,0,0.0,-5,-2.5,12,6.0,-2.5,0,0.0,0,0.0,0,81.2
+Trey McBride,TE,ARI,3,2,32,0,1.0,20,10.0,12,6.0,5.3,0,0.0,0,0.0,0,102.1
+Rondale Moore,WR,ARI,1,1,14,0,1.0,14,14.0,0,0.0,14.0,0,0.0,0,0.0,0,118.7
+Zach Pascal,WR,ARI,1,1,9,0,0.0,-3,-3.0,12,12.0,-3.0,1,1.0,0,0.0,0,104.2
+James Conner,RB,ARI,1,0,0,0,0.0,0,0.0,0,0.0,-5.0,0,0.0,0,0.0,0,39.6

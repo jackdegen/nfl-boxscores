@@ -1,14 +1,14 @@
-name,pos,snap_total,snap_percent,team,opp
-Daniel Jones,QB,68,1.0,NYG,ARI
-Saquon Barkley,RB,66,0.97,NYG,ARI
-Darren Waller,TE,61,0.9,NYG,ARI
-Darius Slayton,WR,56,0.82,NYG,ARI
-Isaiah Hodgins,WR,51,0.75,NYG,ARI
-Parris Campbell,WR,45,0.66,NYG,ARI
-Daniel Bellinger,TE,28,0.41,NYG,ARI
-Jalin Hyatt,WR,14,0.21,NYG,ARI
-Sterling Shepard,WR,10,0.15,NYG,ARI
-Gary Brightwell,RB,2,0.03,NYG,ARI
-Matt Breida,RB,2,0.03,NYG,ARI
-Taiwan Jones,RB,0,0.0,NYG,ARI
-Eric Gray,RB,0,0.0,NYG,ARI
+name,pos,snap_total,snap_percent,team,opp,week
+Daniel Jones,QB,68,1.0,NYG,ARI,2
+Saquon Barkley,RB,66,0.97,NYG,ARI,2
+Darren Waller,TE,61,0.9,NYG,ARI,2
+Darius Slayton,WR,56,0.82,NYG,ARI,2
+Isaiah Hodgins,WR,51,0.75,NYG,ARI,2
+Parris Campbell,WR,45,0.66,NYG,ARI,2
+Daniel Bellinger,TE,28,0.41,NYG,ARI,2
+Jalin Hyatt,WR,14,0.21,NYG,ARI,2
+Sterling Shepard,WR,10,0.15,NYG,ARI,2
+Gary Brightwell,RB,2,0.03,NYG,ARI,2
+Matt Breida,RB,2,0.03,NYG,ARI,2
+Taiwan Jones,RB,0,0.0,NYG,ARI,2
+Eric Gray,RB,0,0.0,NYG,ARI,2

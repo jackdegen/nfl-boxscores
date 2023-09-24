@@ -1,15 +1,15 @@
-name,pos,snap_total,snap_percent,team,opp
-Patrick Mahomes,QB,65,1.0,KC,DET
-Noah Gray,TE,57,0.88,KC,DET
-Skyy Moore,WR,45,0.69,KC,DET
-Marquez Valdes-Scantling,WR,41,0.63,KC,DET
-Isiah Pacheco,RB,31,0.48,KC,DET
-Blake Bell,TE,26,0.4,KC,DET
-Richie James,WR,23,0.35,KC,DET
-Jerick McKinnon,RB,20,0.31,KC,DET
-Rashee Rice,WR,20,0.31,KC,DET
-Justin Watson,WR,19,0.29,KC,DET
-Kadarius Toney,WR,16,0.25,KC,DET
-Clyde Edwards-Helaire,RB,14,0.22,KC,DET
-Matt Bushman,TE,7,0.11,KC,DET
-Justyn Ross,WR,6,0.09,KC,DET
+name,pos,snap_total,snap_percent,team,opp,week
+Patrick Mahomes,QB,65,1.0,KC,DET,1
+Noah Gray,TE,57,0.88,KC,DET,1
+Skyy Moore,WR,45,0.69,KC,DET,1
+Marquez Valdes-Scantling,WR,41,0.63,KC,DET,1
+Isiah Pacheco,RB,31,0.48,KC,DET,1
+Blake Bell,TE,26,0.4,KC,DET,1
+Richie James,WR,23,0.35,KC,DET,1
+Jerick McKinnon,RB,20,0.31,KC,DET,1
+Rashee Rice,WR,20,0.31,KC,DET,1
+Justin Watson,WR,19,0.29,KC,DET,1
+Kadarius Toney,WR,16,0.25,KC,DET,1
+Clyde Edwards-Helaire,RB,14,0.22,KC,DET,1
+Matt Bushman,TE,7,0.11,KC,DET,1
+Justyn Ross,WR,6,0.09,KC,DET,1

@@ -1,0 +1,7 @@
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
+Zay Flowers,WR,BAL,10,9,78,0,5.0,27,3.0,51,5.7,2.8,1,9.0,0,0.0,1,59.6
+Rashod Bateman,WR,BAL,3,3,35,0,1.0,24,8.0,11,3.7,8.0,0,0.0,0,0.0,0,115.3
+Odell Beckham,WR,BAL,3,2,37,0,2.0,36,18.0,1,0.5,13.0,0,0.0,0,0.0,0,109.0
+JK Dobbins,RB,BAL,3,2,15,0,0.0,0,0.0,15,7.5,1.0,1,2.0,0,0.0,0,78.5
+Isaiah Likely,TE,BAL,1,1,4,0,0.0,-2,-2.0,6,6.0,-2.0,0,0.0,0,0.0,0,83.3
+Charlie Kolar,TE,BAL,1,0,0,0,0.0,0,0.0,0,0.0,12.0,0,0.0,1,1.0,0,39.6

@@ -1,13 +1,13 @@
-name,pos,snap_total,snap_percent,team,opp
-Trevor Lawrence,QB,70,1.0,JAX,IND
-Zay Jones,WR,62,0.89,JAX,IND
-Calvin Ridley,WR,57,0.81,JAX,IND
-Travis Etienne,RB,56,0.8,JAX,IND
-Evan Engram,TE,51,0.73,JAX,IND
-Christian Kirk,WR,42,0.6,JAX,IND
-Luke Farrell,TE,33,0.47,JAX,IND
-Brenton Strange,TE,27,0.39,JAX,IND
-Tank Bigsby,RB,15,0.21,JAX,IND
-Jamal Agnew,WR,3,0.04,JAX,IND
-Tim Jones,WR,2,0.03,JAX,IND
-D'Ernest Johnson,RB,1,0.01,JAX,IND
+name,pos,snap_total,snap_percent,team,opp,week
+Trevor Lawrence,QB,70,1.0,JAX,IND,1
+Zay Jones,WR,62,0.89,JAX,IND,1
+Calvin Ridley,WR,57,0.81,JAX,IND,1
+Travis Etienne,RB,56,0.8,JAX,IND,1
+Evan Engram,TE,51,0.73,JAX,IND,1
+Christian Kirk,WR,42,0.6,JAX,IND,1
+Luke Farrell,TE,33,0.47,JAX,IND,1
+Brenton Strange,TE,27,0.39,JAX,IND,1
+Tank Bigsby,RB,15,0.21,JAX,IND,1
+Jamal Agnew,WR,3,0.04,JAX,IND,1
+Tim Jones,WR,2,0.03,JAX,IND,1
+D'Ernest Johnson,RB,1,0.01,JAX,IND,1

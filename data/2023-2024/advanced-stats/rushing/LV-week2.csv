@@ -1,0 +1,5 @@
+name,pos,team,rush_att,rush_yds,rush_td,rush_first_down,rush_yds_before_contact,rush_yds_bc_per_rush,rush_yac,rush_yac_per_rush,rush_broken_tackles,rush_broken_tackles_per_rush
+Josh Jacobs,RB,LV,9,-2,0,0.0,-3,-0.3,1,0.1,0,0.0
+Zamir White,RB,LV,4,22,0,1.0,13,3.3,9,2.3,0,0.0
+Jimmy Garoppolo,QB,LV,1,1,0,0.0,1,1.0,0,0.0,0,0.0
+Tre Tucker,WR,LV,1,34,0,1.0,31,31.0,3,3.0,0,0.0

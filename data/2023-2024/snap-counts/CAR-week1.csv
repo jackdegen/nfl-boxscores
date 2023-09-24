@@ -1,14 +1,14 @@
-name,pos,snap_total,snap_percent,team,opp
-Bryce Young,QB,77,1.0,CAR,ATL
-Terrace Marshall,WR,69,0.9,CAR,ATL
-Adam Thielen,WR,68,0.88,CAR,ATL
-Jonathan Mingo,WR,67,0.87,CAR,ATL
-Miles Sanders,RB,44,0.57,CAR,ATL
-Hayden Hurst,TE,41,0.53,CAR,ATL
-Chuba Hubbard,RB,28,0.36,CAR,ATL
-Laviska Shenault,WR,25,0.32,CAR,ATL
-Tommy Tremble,TE,18,0.23,CAR,ATL
-Ian Thomas,TE,15,0.19,CAR,ATL
-Giovanni Ricci,TE,8,0.1,CAR,ATL
-Ihmir Smith-Marsette,WR,2,0.03,CAR,ATL
-Raheem Blackshear,RB,0,0.0,CAR,ATL
+name,pos,snap_total,snap_percent,team,opp,week
+Bryce Young,QB,77,1.0,CAR,ATL,1
+Terrace Marshall,WR,69,0.9,CAR,ATL,1
+Adam Thielen,WR,68,0.88,CAR,ATL,1
+Jonathan Mingo,WR,67,0.87,CAR,ATL,1
+Miles Sanders,RB,44,0.57,CAR,ATL,1
+Hayden Hurst,TE,41,0.53,CAR,ATL,1
+Chuba Hubbard,RB,28,0.36,CAR,ATL,1
+Laviska Shenault,WR,25,0.32,CAR,ATL,1
+Tommy Tremble,TE,18,0.23,CAR,ATL,1
+Ian Thomas,TE,15,0.19,CAR,ATL,1
+Giovanni Ricci,TE,8,0.1,CAR,ATL,1
+Ihmir Smith-Marsette,WR,2,0.03,CAR,ATL,1
+Raheem Blackshear,RB,0,0.0,CAR,ATL,1

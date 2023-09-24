@@ -1,0 +1,5 @@
+name,pos,team,rush_att,rush_yds,rush_td,rush_first_down,rush_yds_before_contact,rush_yds_bc_per_rush,rush_yac,rush_yac_per_rush,rush_broken_tackles,rush_broken_tackles_per_rush
+Miles Sanders,RB,CAR,14,43,0,2.0,22,1.6,21,1.5,0,0.0
+Chuba Hubbard,RB,CAR,2,16,0,1.0,3,1.5,13,6.5,0,0.0
+Bryce Young,QB,CAR,2,34,0,1.0,33,16.5,1,0.5,0,0.0
+Laviska Shenault,WR,CAR,1,7,0,0.0,2,2.0,5,5.0,0,0.0

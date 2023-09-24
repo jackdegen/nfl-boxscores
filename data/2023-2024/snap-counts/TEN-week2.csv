@@ -1,13 +1,13 @@
-name,pos,snap_total,snap_percent,team,opp
-Ryan Tannehill,QB,65,1.0,TEN,LAC
-Derrick Henry,RB,46,0.71,TEN,LAC
-Chigoziem Okonkwo,TE,45,0.69,TEN,LAC
-Nick Westbrook-Ikhine,WR,44,0.68,TEN,LAC
-Treylon Burks,WR,42,0.65,TEN,LAC
-Trevon Wesco,TE,40,0.62,TEN,LAC
-DeAndre Hopkins,WR,39,0.6,TEN,LAC
-Chris Moore,WR,30,0.46,TEN,LAC
-Tyjae Spears,RB,24,0.37,TEN,LAC
-Josh Whyle,TE,14,0.22,TEN,LAC
-Julius Chestnut,RB,1,0.02,TEN,LAC
-Kearis Jackson,WR,0,0.0,TEN,LAC
+name,pos,snap_total,snap_percent,team,opp,week
+Ryan Tannehill,QB,65,1.0,TEN,LAC,2
+Derrick Henry,RB,46,0.71,TEN,LAC,2
+Chigoziem Okonkwo,TE,45,0.69,TEN,LAC,2
+Nick Westbrook-Ikhine,WR,44,0.68,TEN,LAC,2
+Treylon Burks,WR,42,0.65,TEN,LAC,2
+Trevon Wesco,TE,40,0.62,TEN,LAC,2
+DeAndre Hopkins,WR,39,0.6,TEN,LAC,2
+Chris Moore,WR,30,0.46,TEN,LAC,2
+Tyjae Spears,RB,24,0.37,TEN,LAC,2
+Josh Whyle,TE,14,0.22,TEN,LAC,2
+Julius Chestnut,RB,1,0.02,TEN,LAC,2
+Kearis Jackson,WR,0,0.0,TEN,LAC,2

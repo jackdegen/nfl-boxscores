@@ -1,14 +1,14 @@
-name,pos,snap_total,snap_percent,team,opp
-Dak Prescott,QB,87,1.0,DAL,NYJ
-CeeDee Lamb,WR,63,0.72,DAL,NYJ
-Michael Gallup,WR,63,0.72,DAL,NYJ
-Jalen Tolbert,WR,59,0.68,DAL,NYJ
-Tony Pollard,RB,56,0.64,DAL,NYJ
-Jake Ferguson,TE,52,0.6,DAL,NYJ
-Luke Schoonmaker,TE,31,0.36,DAL,NYJ
-Peyton Hendershot,TE,31,0.36,DAL,NYJ
-Hunter Luepke,RB,18,0.21,DAL,NYJ
-Rico Dowdle,RB,18,0.21,DAL,NYJ
-KaVontae Turpin,WR,16,0.18,DAL,NYJ
-Jalen Brooks,WR,15,0.17,DAL,NYJ
-Deuce Vaughn,RB,13,0.15,DAL,NYJ
+name,pos,snap_total,snap_percent,team,opp,week
+Dak Prescott,QB,87,1.0,DAL,NYJ,2
+CeeDee Lamb,WR,63,0.72,DAL,NYJ,2
+Michael Gallup,WR,63,0.72,DAL,NYJ,2
+Jalen Tolbert,WR,59,0.68,DAL,NYJ,2
+Tony Pollard,RB,56,0.64,DAL,NYJ,2
+Jake Ferguson,TE,52,0.6,DAL,NYJ,2
+Luke Schoonmaker,TE,31,0.36,DAL,NYJ,2
+Peyton Hendershot,TE,31,0.36,DAL,NYJ,2
+Hunter Luepke,RB,18,0.21,DAL,NYJ,2
+Rico Dowdle,RB,18,0.21,DAL,NYJ,2
+KaVontae Turpin,WR,16,0.18,DAL,NYJ,2
+Jalen Brooks,WR,15,0.17,DAL,NYJ,2
+Deuce Vaughn,RB,13,0.15,DAL,NYJ,2

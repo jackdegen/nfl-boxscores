@@ -1,13 +1,13 @@
-name,pos,snap_total,snap_percent,team,opp
-Tua Tagovailoa,QB,63,1.0,MIA,NE
-Durham Smythe,TE,61,0.97,MIA,NE
-Tyreek Hill,WR,54,0.86,MIA,NE
-Jaylen Waddle,WR,46,0.73,MIA,NE
-Raheem Mostert,RB,46,0.73,MIA,NE
-Braxton Berrios,WR,21,0.33,MIA,NE
-River Cracraft,WR,18,0.29,MIA,NE
-Salvon Ahmed,RB,12,0.19,MIA,NE
-Erik Ezukanma,WR,10,0.16,MIA,NE
-Devon Achane,RB,6,0.1,MIA,NE
-Tyler Kroft,TE,3,0.05,MIA,NE
-Chris Brooks,RB,0,0.0,MIA,NE
+name,pos,snap_total,snap_percent,team,opp,week
+Tua Tagovailoa,QB,63,1.0,MIA,NE,2
+Durham Smythe,TE,61,0.97,MIA,NE,2
+Tyreek Hill,WR,54,0.86,MIA,NE,2
+Jaylen Waddle,WR,46,0.73,MIA,NE,2
+Raheem Mostert,RB,46,0.73,MIA,NE,2
+Braxton Berrios,WR,21,0.33,MIA,NE,2
+River Cracraft,WR,18,0.29,MIA,NE,2
+Salvon Ahmed,RB,12,0.19,MIA,NE,2
+Erik Ezukanma,WR,10,0.16,MIA,NE,2
+Devon Achane,RB,6,0.1,MIA,NE,2
+Tyler Kroft,TE,3,0.05,MIA,NE,2
+Chris Brooks,RB,0,0.0,MIA,NE,2

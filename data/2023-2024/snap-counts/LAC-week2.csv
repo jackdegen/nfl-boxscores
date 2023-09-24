@@ -1,14 +1,14 @@
-name,pos,snap_total,snap_percent,team,opp
-Justin Herbert,QB,68,1.0,LAC,TEN
-Keenan Allen,WR,64,0.94,LAC,TEN
-Mike Williams,WR,61,0.9,LAC,TEN
-Joshua Kelley,RB,54,0.79,LAC,TEN
-Josh Palmer,WR,37,0.54,LAC,TEN
-Donald Parham,TE,34,0.5,LAC,TEN
-Gerald Everett,TE,28,0.41,LAC,TEN
-Stone Smartt,TE,22,0.32,LAC,TEN
-Derius Davis,WR,11,0.16,LAC,TEN
-Quentin Johnston,WR,10,0.15,LAC,TEN
-Elijah Dotson,RB,9,0.13,LAC,TEN
-Tre' McKitty,TE,5,0.07,LAC,TEN
-Isaiah Spiller,RB,4,0.06,LAC,TEN
+name,pos,snap_total,snap_percent,team,opp,week
+Justin Herbert,QB,68,1.0,LAC,TEN,2
+Keenan Allen,WR,64,0.94,LAC,TEN,2
+Mike Williams,WR,61,0.9,LAC,TEN,2
+Joshua Kelley,RB,54,0.79,LAC,TEN,2
+Josh Palmer,WR,37,0.54,LAC,TEN,2
+Donald Parham,TE,34,0.5,LAC,TEN,2
+Gerald Everett,TE,28,0.41,LAC,TEN,2
+Stone Smartt,TE,22,0.32,LAC,TEN,2
+Derius Davis,WR,11,0.16,LAC,TEN,2
+Quentin Johnston,WR,10,0.15,LAC,TEN,2
+Elijah Dotson,RB,9,0.13,LAC,TEN,2
+Tre' McKitty,TE,5,0.07,LAC,TEN,2
+Isaiah Spiller,RB,4,0.06,LAC,TEN,2

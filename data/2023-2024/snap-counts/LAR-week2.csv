@@ -1,13 +1,13 @@
-name,pos,snap_total,snap_percent,team,opp
-Matthew Stafford,QB,80,1.0,LAR,SF
-Kyren Williams,RB,76,0.95,LAR,SF
-Tutu Atwell,WR,75,0.94,LAR,SF
-Tyler Higbee,TE,74,0.92,LAR,SF
-Puka Nacua,WR,69,0.86,LAR,SF
-Van Jefferson,WR,66,0.82,LAR,SF
-Ben Skowronek,WR,20,0.25,LAR,SF
-Brycen Hopkins,TE,9,0.11,LAR,SF
-Demarcus Robinson,WR,6,0.08,LAR,SF
-Ronnie Rivers,RB,4,0.05,LAR,SF
-Austin Trammell,WR,1,0.01,LAR,SF
-Royce Freeman,RB,0,0.0,LAR,SF
+name,pos,snap_total,snap_percent,team,opp,week
+Matthew Stafford,QB,80,1.0,LAR,SF,2
+Kyren Williams,RB,76,0.95,LAR,SF,2
+Tutu Atwell,WR,75,0.94,LAR,SF,2
+Tyler Higbee,TE,74,0.92,LAR,SF,2
+Puka Nacua,WR,69,0.86,LAR,SF,2
+Van Jefferson,WR,66,0.82,LAR,SF,2
+Ben Skowronek,WR,20,0.25,LAR,SF,2
+Brycen Hopkins,TE,9,0.11,LAR,SF,2
+Demarcus Robinson,WR,6,0.08,LAR,SF,2
+Ronnie Rivers,RB,4,0.05,LAR,SF,2
+Austin Trammell,WR,1,0.01,LAR,SF,2
+Royce Freeman,RB,0,0.0,LAR,SF,2

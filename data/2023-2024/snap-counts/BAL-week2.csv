@@ -1,12 +1,12 @@
-name,pos,snap_total,snap_percent,team,opp
-Lamar Jackson,QB,75,1.0,BAL,CIN
-Mark Andrews,TE,59,0.79,BAL,CIN
-Zay Flowers,WR,58,0.77,BAL,CIN
-Rashod Bateman,WR,44,0.59,BAL,CIN
-Justice Hill,RB,43,0.57,BAL,CIN
-Odell Beckham,WR,39,0.52,BAL,CIN
-Gus Edwards,RB,32,0.43,BAL,CIN
-Isaiah Likely,TE,25,0.33,BAL,CIN
-Nelson Agholor,WR,25,0.33,BAL,CIN
-Devin Duvernay,WR,22,0.29,BAL,CIN
-Tylan Wallace,WR,1,0.01,BAL,CIN
+name,pos,snap_total,snap_percent,team,opp,week
+Lamar Jackson,QB,75,1.0,BAL,CIN,2
+Mark Andrews,TE,59,0.79,BAL,CIN,2
+Zay Flowers,WR,58,0.77,BAL,CIN,2
+Rashod Bateman,WR,44,0.59,BAL,CIN,2
+Justice Hill,RB,43,0.57,BAL,CIN,2
+Odell Beckham,WR,39,0.52,BAL,CIN,2
+Gus Edwards,RB,32,0.43,BAL,CIN,2
+Isaiah Likely,TE,25,0.33,BAL,CIN,2
+Nelson Agholor,WR,25,0.33,BAL,CIN,2
+Devin Duvernay,WR,22,0.29,BAL,CIN,2
+Tylan Wallace,WR,1,0.01,BAL,CIN,2

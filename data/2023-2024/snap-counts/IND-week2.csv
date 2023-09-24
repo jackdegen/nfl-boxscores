@@ -1,14 +1,14 @@
-name,pos,snap_total,snap_percent,team,opp
-Alec Pierce,WR,57,1.0,IND,HOU
-Zack Moss,RB,56,0.98,IND,HOU
-Michael Pittman,WR,56,0.98,IND,HOU
-Josh Downs,WR,43,0.75,IND,HOU
-Gardner Minshew,QB,39,0.68,IND,HOU
-Kylen Granson,TE,37,0.65,IND,HOU
-Mo Alie-Cox,TE,23,0.4,IND,HOU
-Anthony Richardson,QB,18,0.32,IND,HOU
-Will Mallory,TE,11,0.19,IND,HOU
-Isaiah McKenzie,WR,2,0.04,IND,HOU
-Jake Funk,RB,0,0.0,IND,HOU
-Juwann Winfree,WR,0,0.0,IND,HOU
-Deon Jackson,RB,0,0.0,IND,HOU
+name,pos,snap_total,snap_percent,team,opp,week
+Alec Pierce,WR,57,1.0,IND,HOU,2
+Zack Moss,RB,56,0.98,IND,HOU,2
+Michael Pittman,WR,56,0.98,IND,HOU,2
+Josh Downs,WR,43,0.75,IND,HOU,2
+Gardner Minshew,QB,39,0.68,IND,HOU,2
+Kylen Granson,TE,37,0.65,IND,HOU,2
+Mo Alie-Cox,TE,23,0.4,IND,HOU,2
+Anthony Richardson,QB,18,0.32,IND,HOU,2
+Will Mallory,TE,11,0.19,IND,HOU,2
+Isaiah McKenzie,WR,2,0.04,IND,HOU,2
+Jake Funk,RB,0,0.0,IND,HOU,2
+Juwann Winfree,WR,0,0.0,IND,HOU,2
+Deon Jackson,RB,0,0.0,IND,HOU,2

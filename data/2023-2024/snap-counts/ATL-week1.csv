@@ -1,13 +1,13 @@
-name,pos,snap_total,snap_percent,team,opp
-Desmond Ridder,QB,52,1.0,ATL,CAR
-Drake London,WR,47,0.9,ATL,CAR
-Mack Hollins,WR,33,0.63,ATL,CAR
-Bijan Robinson,RB,33,0.63,ATL,CAR
-Kyle Pitts,TE,32,0.62,ATL,CAR
-Tyler Allgeier,RB,29,0.56,ATL,CAR
-Jonnu Smith,TE,26,0.5,ATL,CAR
-MyCole Pruitt,TE,25,0.48,ATL,CAR
-Scott Miller,WR,10,0.19,ATL,CAR
-KhaDarel Hodge,WR,7,0.13,ATL,CAR
-Parker Hesse,TE,7,0.13,ATL,CAR
-Godwin Igwebuike,RB,1,0.02,ATL,CAR
+name,pos,snap_total,snap_percent,team,opp,week
+Desmond Ridder,QB,52,1.0,ATL,CAR,1
+Drake London,WR,47,0.9,ATL,CAR,1
+Mack Hollins,WR,33,0.63,ATL,CAR,1
+Bijan Robinson,RB,33,0.63,ATL,CAR,1
+Kyle Pitts,TE,32,0.62,ATL,CAR,1
+Tyler Allgeier,RB,29,0.56,ATL,CAR,1
+Jonnu Smith,TE,26,0.5,ATL,CAR,1
+MyCole Pruitt,TE,25,0.48,ATL,CAR,1
+Scott Miller,WR,10,0.19,ATL,CAR,1
+KhaDarel Hodge,WR,7,0.13,ATL,CAR,1
+Parker Hesse,TE,7,0.13,ATL,CAR,1
+Godwin Igwebuike,RB,1,0.02,ATL,CAR,1

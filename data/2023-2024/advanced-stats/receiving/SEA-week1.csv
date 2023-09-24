@@ -1,0 +1,8 @@
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
+Kenneth Walker,RB,SEA,5,4,3,0,1.0,-17,-4.3,20,5.0,-5.2,0,0.0,0,0.0,0,79.2
+DK Metcalf,WR,SEA,5,3,47,1,2.0,36,12.0,11,3.7,15.2,0,0.0,1,0.2,0,130.8
+Jaxon Smith-Njigba,WR,SEA,5,3,13,0,1.0,-1,-0.3,14,4.7,2.0,0,0.0,1,0.2,0,64.6
+Will Dissly,TE,SEA,2,2,17,0,1.0,4,2.0,13,6.5,2.0,0,0.0,0,0.0,0,102.1
+Tyler Lockett,WR,SEA,4,2,10,0,1.0,9,4.5,1,0.5,12.0,0,0.0,0,0.0,0,56.2
+DeeJay Dallas,RB,SEA,1,1,14,0,1.0,5,5.0,9,9.0,5.0,0,0.0,0,0.0,0,118.7
+Colby Parkinson,TE,SEA,2,1,8,0,0.0,5,5.0,3,3.0,2.5,0,0.0,0,0.0,0,60.4

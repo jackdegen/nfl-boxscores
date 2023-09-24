@@ -1,0 +1,2 @@
+name,pos,team,pass_cmp,pass_att,pass_yds,pass_first_down,pass_first_down_pct,pass_target_yds,pass_tgt_yds_per_att,pass_air_yds,pass_air_yds_per_cmp,pass_air_yds_per_att,pass_yac,pass_yac_per_cmp,pass_drops,pass_drop_pct,pass_poor_throws,pass_poor_throw_pct,pass_sacked,pass_blitzed,pass_hurried,pass_hits,pass_pressured,pass_pressured_pct,rush_scrambles,rush_scrambles_yds_per_att
+Jimmy Garoppolo,QB,LV,20,26,200,11,0.42,183,7.0,138,6.9,5.3,62,3.1,0,0.0,2,0.077,0,6,1,1,2,0.069,3,5.7
