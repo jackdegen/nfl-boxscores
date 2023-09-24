@@ -43,14 +43,6 @@ class Scraper:
         # Initialize filing object
         self.filing = Filing(self.season)
 
-        # Load positions to add to boxscores
-        self.positions = self.filing.positions()
-
-        # Convert to dictionary to speed up (FrozenDict??)
-        self.lookup_position: dict[[str], str] = {
-            name: self.positions.loc[name, 'pos'] for name in self.positions.index
-        }
-
         # NFL changed number of weeks in 2022
         num_weeks = 18 if self.year >= 2022 else 17
         
@@ -102,14 +94,7 @@ class Scraper:
 
             game_url: str = f"{root_url}{game.find_all('td', class_='right gamelink')[0].find('a')['href']}"
             
-            # Need to render some of the tables, so selenium necessary to fully utilize BeautifulSoup
-            # Maybe add this outside of main loop?
-            # ff_options = Options()
-            # ff_options.add_argument('--headless')
-            
-            # driver = webdriver.Firefox(options=ff_options)
             self.driver.get(game_url)
-            
             game_soup = BeautifulSoup(self.driver.page_source, 'html.parser')
             
     
@@ -390,7 +375,7 @@ class Scraper:
                 self.filing.save_snapcounts(df_, team, week)
 
             ########################################################################################################
-            # Filing fpts dataframe here after being able to get positions directly from pfr
+            # Filing fpts dataframe here after being able to get positions directly from Pro-Football-Reference
             ########################################################################################################
 
             offense_df['pos'] = offense_df['name'].map(lambda name_: name_position.get(name_,'RB')) # Default to RB since sometimes LB or FB or weird positions get rushing attempt
