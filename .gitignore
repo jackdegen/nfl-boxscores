@@ -6,8 +6,9 @@ boxscores/
 # Hiding past performance optimizer for now
 past-performances.ipynb
 
-# Don't want scrap notebook
+# Don't want scrap notebooks
 scrap.ipynb
+point72_questions.ipynb
 
 
 # Byte-compiled / optimized / DLL files
