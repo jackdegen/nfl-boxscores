@@ -1,8 +1,8 @@
-name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
-AJ Brown,WR,PHI,10,7,79,0,4.0,66,9.4,13,1.9,17.1,0,0.0,1,0.1,0,93.3
-DeVonta Smith,WR,PHI,10,7,47,1,3.0,39,5.6,8,1.1,10.0,0,0.0,0,0.0,0,113.3
-Kenneth Gainwell,RB,PHI,4,4,20,0,0.0,-1,-0.3,21,5.3,-0.3,0,0.0,0,0.0,0,87.5
-Quez Watkins,WR,PHI,2,2,17,0,1.0,3,1.5,14,7.0,1.5,0,0.0,0,0.0,0,102.1
-Boston Scott,RB,PHI,1,1,7,0,0.0,3,3.0,4,4.0,3.0,0,0.0,0,0.0,0,95.8
-D'Andre Swift,RB,PHI,2,1,0,0,0.0,-4,-4.0,4,4.0,0.0,0,0.0,1,0.5,0,56.2
-Dallas Goedert,TE,PHI,1,0,0,0,0.0,0,0.0,0,0.0,15.0,0,0.0,0,0.0,0,39.6
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating,week
+AJ Brown,WR,PHI,10,7,79,0,4.0,66,9.4,13,1.9,17.1,0,0.0,1,0.1,0,93.3,1
+DeVonta Smith,WR,PHI,10,7,47,1,3.0,39,5.6,8,1.1,10.0,0,0.0,0,0.0,0,113.3,1
+Kenneth Gainwell,RB,PHI,4,4,20,0,0.0,-1,-0.3,21,5.3,-0.3,0,0.0,0,0.0,0,87.5,1
+Quez Watkins,WR,PHI,2,2,17,0,1.0,3,1.5,14,7.0,1.5,0,0.0,0,0.0,0,102.1,1
+Boston Scott,RB,PHI,1,1,7,0,0.0,3,3.0,4,4.0,3.0,0,0.0,0,0.0,0,95.8,1
+D'Andre Swift,RB,PHI,2,1,0,0,0.0,-4,-4.0,4,4.0,0.0,0,0.0,1,0.5,0,56.2,1
+Dallas Goedert,TE,PHI,1,0,0,0,0.0,0,0.0,0,0.0,15.0,0,0.0,0,0.0,0,39.6,1

@@ -1,9 +1,9 @@
-name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
-CeeDee Lamb,WR,DAL,4,4,77,0,3.0,37,9.3,40,10.0,9.3,0,0.0,0,0.0,0,118.7
-KaVontae Turpin,WR,DAL,3,2,11,0,1.0,6,3.0,5,2.5,1.7,0,0.0,1,0.33,0,72.9
-Tony Pollard,RB,DAL,3,2,12,0,1.0,-1,-0.5,13,6.5,-0.7,0,0.0,0,0.0,0,74.3
-Brandin Cooks,WR,DAL,4,2,22,0,2.0,20,10.0,2,1.0,10.0,0,0.0,0,0.0,0,66.7
-Jake Ferguson,TE,DAL,7,2,11,0,0.0,2,1.0,9,4.5,4.0,0,0.0,2,0.28,0,39.6
-Michael Gallup,WR,DAL,2,1,10,0,1.0,8,8.0,2,2.0,18.0,0,0.0,0,0.0,0,64.6
-Jalen Tolbert,WR,DAL,1,0,0,0,0.0,0,0.0,0,0.0,20.0,0,0.0,0,0.0,0,39.6
-Peyton Hendershot,TE,DAL,1,0,0,0,0.0,0,0.0,0,0.0,17.0,0,0.0,1,1.0,0,39.6
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating,week
+CeeDee Lamb,WR,DAL,4,4,77,0,3.0,37,9.3,40,10.0,9.3,0,0.0,0,0.0,0,118.7,1
+KaVontae Turpin,WR,DAL,3,2,11,0,1.0,6,3.0,5,2.5,1.7,0,0.0,1,0.33,0,72.9,1
+Tony Pollard,RB,DAL,3,2,12,0,1.0,-1,-0.5,13,6.5,-0.7,0,0.0,0,0.0,0,74.3,1
+Brandin Cooks,WR,DAL,4,2,22,0,2.0,20,10.0,2,1.0,10.0,0,0.0,0,0.0,0,66.7,1
+Jake Ferguson,TE,DAL,7,2,11,0,0.0,2,1.0,9,4.5,4.0,0,0.0,2,0.28,0,39.6,1
+Michael Gallup,WR,DAL,2,1,10,0,1.0,8,8.0,2,2.0,18.0,0,0.0,0,0.0,0,64.6,1
+Jalen Tolbert,WR,DAL,1,0,0,0,0.0,0,0.0,0,0.0,20.0,0,0.0,0,0.0,0,39.6,1
+Peyton Hendershot,TE,DAL,1,0,0,0,0.0,0,0.0,0,0.0,17.0,0,0.0,1,1.0,0,39.6,1

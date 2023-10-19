@@ -1,6 +1,6 @@
-name,pos,team,rush_att,rush_yds,rush_td,rush_first_down,rush_yds_before_contact,rush_yds_bc_per_rush,rush_yac,rush_yac_per_rush,rush_broken_tackles,rush_broken_tackles_per_rush
-Zach Wilson,QB,NYJ,5,36,0,2.0,31,6.2,5,1.0,0,0.0
-Dalvin Cook,RB,NYJ,4,7,0,0.0,4,1.0,3,0.8,2,2.0
-Breece Hall,RB,NYJ,4,9,0,0.0,9,2.3,0,0.0,0,0.0
-Michael Carter,RB,NYJ,2,8,0,1.0,8,4.0,0,0.0,0,0.0
-Ashtyn Davis,RB,NYJ,1,4,0,1.0,2,2.0,2,2.0,0,0.0
+name,pos,team,rush_att,rush_yds,rush_td,rush_first_down,rush_yds_before_contact,rush_yds_bc_per_rush,rush_yac,rush_yac_per_rush,rush_broken_tackles,rush_broken_tackles_per_rush,week
+Zach Wilson,QB,NYJ,5,36,0,2.0,31,6.2,5,1.0,0,0.0,2
+Dalvin Cook,RB,NYJ,4,7,0,0.0,4,1.0,3,0.8,2,2.0,2
+Breece Hall,RB,NYJ,4,9,0,0.0,9,2.3,0,0.0,0,0.0,2
+Michael Carter,RB,NYJ,2,8,0,1.0,8,4.0,0,0.0,0,0.0,2
+Ashtyn Davis,RB,NYJ,1,4,0,1.0,2,2.0,2,2.0,0,0.0,2

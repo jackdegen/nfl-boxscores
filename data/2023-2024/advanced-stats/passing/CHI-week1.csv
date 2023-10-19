@@ -1,2 +1,2 @@
-name,pos,team,pass_cmp,pass_att,pass_yds,pass_first_down,pass_first_down_pct,pass_target_yds,pass_tgt_yds_per_att,pass_air_yds,pass_air_yds_per_cmp,pass_air_yds_per_att,pass_yac,pass_yac_per_cmp,pass_drops,pass_drop_pct,pass_poor_throws,pass_poor_throw_pct,pass_sacked,pass_blitzed,pass_hurried,pass_hits,pass_pressured,pass_pressured_pct,rush_scrambles,rush_scrambles_yds_per_att
-Justin Fields,QB,CHI,24,37,216,12,0.29,113,3.1,86,3.6,2.3,130,5.4,2,0.056,6,0.167,4,14,4,1,9,0.188,7,8.6
+name,pos,team,pass_cmp,pass_att,pass_yds,pass_first_down,pass_first_down_pct,pass_target_yds,pass_tgt_yds_per_att,pass_air_yds,pass_air_yds_per_cmp,pass_air_yds_per_att,pass_yac,pass_yac_per_cmp,pass_drops,pass_drop_pct,pass_poor_throws,pass_poor_throw_pct,pass_sacked,pass_blitzed,pass_hurried,pass_hits,pass_pressured,pass_pressured_pct,rush_scrambles,rush_scrambles_yds_per_att,week
+Justin Fields,QB,CHI,24,37,216,12,0.29,113,3.1,86,3.6,2.3,130,5.4,2,0.056,6,0.167,4,14,4,1,9,0.188,7,8.6,1

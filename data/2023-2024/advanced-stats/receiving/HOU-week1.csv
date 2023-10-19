@@ -1,11 +1,11 @@
-name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
-Nico Collins,WR,HOU,11,6,80,0,3.0,59,9.8,21,3.5,14.4,0,0.0,0,0.0,0,77.8
-Robert Woods,WR,HOU,10,6,57,0,4.0,36,6.0,21,3.5,7.5,0,0.0,1,0.1,0,75.8
-Mike Boone,RB,HOU,4,3,18,0,1.0,-3,-1.0,21,7.0,-1.8,0,0.0,1,0.25,0,83.3
-Noah Brown,WR,HOU,4,3,20,0,0.0,-8,-2.7,28,9.3,-3.3,0,0.0,0,0.0,0,85.4
-Tank Dell,WR,HOU,4,3,34,0,3.0,27,9.0,7,2.3,8.5,0,0.0,0,0.0,0,100.0
-Dameon Pierce,RB,HOU,3,2,9,0,0.0,-5,-2.5,14,7.0,0.0,0,0.0,0,0.0,0,70.1
-Dalton Schultz,TE,HOU,4,2,4,0,0.0,-4,-2.0,8,4.0,1.5,0,0.0,0,0.0,0,56.2
-Xavier Hutchinson,WR,HOU,1,1,9,0,1.0,7,7.0,2,2.0,7.0,0,0.0,0,0.0,0,104.2
-Teagan Quitoriano,TE,HOU,1,1,11,0,1.0,1,1.0,10,10.0,1.0,1,1.0,0,0.0,0,112.5
-CJ Stroud,QB,HOU,1,1,0,0,0.0,-1,-1.0,1,1.0,-1.0,0,0.0,0,0.0,0,79.2
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating,week
+Nico Collins,WR,HOU,11,6,80,0,3.0,59,9.8,21,3.5,14.4,0,0.0,0,0.0,0,77.8,1
+Robert Woods,WR,HOU,10,6,57,0,4.0,36,6.0,21,3.5,7.5,0,0.0,1,0.1,0,75.8,1
+Mike Boone,RB,HOU,4,3,18,0,1.0,-3,-1.0,21,7.0,-1.8,0,0.0,1,0.25,0,83.3,1
+Noah Brown,WR,HOU,4,3,20,0,0.0,-8,-2.7,28,9.3,-3.3,0,0.0,0,0.0,0,85.4,1
+Tank Dell,WR,HOU,4,3,34,0,3.0,27,9.0,7,2.3,8.5,0,0.0,0,0.0,0,100.0,1
+Dameon Pierce,RB,HOU,3,2,9,0,0.0,-5,-2.5,14,7.0,0.0,0,0.0,0,0.0,0,70.1,1
+Dalton Schultz,TE,HOU,4,2,4,0,0.0,-4,-2.0,8,4.0,1.5,0,0.0,0,0.0,0,56.2,1
+Xavier Hutchinson,WR,HOU,1,1,9,0,1.0,7,7.0,2,2.0,7.0,0,0.0,0,0.0,0,104.2,1
+Teagan Quitoriano,TE,HOU,1,1,11,0,1.0,1,1.0,10,10.0,1.0,1,1.0,0,0.0,0,112.5,1
+CJ Stroud,QB,HOU,1,1,0,0,0.0,-1,-1.0,1,1.0,-1.0,0,0.0,0,0.0,0,79.2,1

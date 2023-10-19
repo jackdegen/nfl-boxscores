@@ -1,5 +1,5 @@
-name,pos,team,rush_att,rush_yds,rush_td,rush_first_down,rush_yds_before_contact,rush_yds_bc_per_rush,rush_yac,rush_yac_per_rush,rush_broken_tackles,rush_broken_tackles_per_rush
-David Montgomery,RB,DET,21,74,1,4.0,51,2.4,23,1.1,1,21.0
-Jahmyr Gibbs,RB,DET,7,42,0,2.0,19,2.7,23,3.3,6,1.2
-Jared Goff,QB,DET,5,-1,0,1.0,-1,-0.2,0,0.0,0,0.0
-Jalen Reeves-Maybin,RB,DET,1,3,0,1.0,3,3.0,0,0.0,0,0.0
+name,pos,team,rush_att,rush_yds,rush_td,rush_first_down,rush_yds_before_contact,rush_yds_bc_per_rush,rush_yac,rush_yac_per_rush,rush_broken_tackles,rush_broken_tackles_per_rush,week
+David Montgomery,RB,DET,21,74,1,4.0,51,2.4,23,1.1,1,21.0,1
+Jahmyr Gibbs,RB,DET,7,42,0,2.0,19,2.7,23,3.3,6,1.2,1
+Jared Goff,QB,DET,5,-1,0,1.0,-1,-0.2,0,0.0,0,0.0,1
+Jalen Reeves-Maybin,RB,DET,1,3,0,1.0,3,3.0,0,0.0,0,0.0,1

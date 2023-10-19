@@ -1,9 +1,9 @@
-name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
-Stefon Diggs,WR,BUF,13,10,102,1,6.0,74,7.4,28,2.8,10.4,1,10.0,0,0.0,1,92.5
-James Cook,RB,BUF,6,4,17,0,0.0,1,0.3,16,4.0,4.2,0,0.0,0,0.0,0,70.1
-Dalton Kincaid,TE,BUF,4,4,26,0,0.0,5,1.3,21,5.3,1.3,0,0.0,0,0.0,0,93.7
-Deonte Harty,WR,BUF,4,3,9,0,1.0,-16,-5.3,25,8.3,12.3,0,0.0,0,0.0,1,37.5
-Dawson Knox,TE,BUF,4,3,25,0,1.0,15,5.0,10,3.3,7.0,1,3.0,0,0.0,0,90.6
-Gabe Davis,WR,BUF,4,2,32,0,2.0,24,12.0,8,4.0,17.5,1,2.0,0,0.0,1,37.5
-Damien Harris,RB,BUF,2,2,16,0,0.0,0,0.0,16,8.0,0.0,0,0.0,0,0.0,0,100.0
-Latavius Murray,RB,BUF,2,1,9,0,1.0,1,1.0,8,8.0,2.0,0,0.0,0,0.0,0,62.5
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating,week
+Stefon Diggs,WR,BUF,13,10,102,1,6.0,74,7.4,28,2.8,10.4,1,10.0,0,0.0,1,92.5,1
+James Cook,RB,BUF,6,4,17,0,0.0,1,0.3,16,4.0,4.2,0,0.0,0,0.0,0,70.1,1
+Dalton Kincaid,TE,BUF,4,4,26,0,0.0,5,1.3,21,5.3,1.3,0,0.0,0,0.0,0,93.7,1
+Deonte Harty,WR,BUF,4,3,9,0,1.0,-16,-5.3,25,8.3,12.3,0,0.0,0,0.0,1,37.5,1
+Dawson Knox,TE,BUF,4,3,25,0,1.0,15,5.0,10,3.3,7.0,1,3.0,0,0.0,0,90.6,1
+Gabe Davis,WR,BUF,4,2,32,0,2.0,24,12.0,8,4.0,17.5,1,2.0,0,0.0,1,37.5,1
+Damien Harris,RB,BUF,2,2,16,0,0.0,0,0.0,16,8.0,0.0,0,0.0,0,0.0,0,100.0,1
+Latavius Murray,RB,BUF,2,1,9,0,1.0,1,1.0,8,8.0,2.0,0,0.0,0,0.0,0,62.5,1

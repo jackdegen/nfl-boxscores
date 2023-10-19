@@ -1,5 +1,5 @@
-name,pos,team,rush_att,rush_yds,rush_td,rush_first_down,rush_yds_before_contact,rush_yds_bc_per_rush,rush_yac,rush_yac_per_rush,rush_broken_tackles,rush_broken_tackles_per_rush
-Tony Jones,RB,NO,12,34,2,4.0,12,1.0,22,1.8,0,0.0
-Taysom Hill,QB,NO,9,75,0,5.0,36,4.0,39,4.3,2,4.5
-Jamaal Williams,RB,NO,9,29,0,1.0,14,1.6,15,1.7,1,9.0
-Derek Carr,QB,NO,3,-4,0,0.0,-4,-1.3,0,0.0,0,0.0
+name,pos,team,rush_att,rush_yds,rush_td,rush_first_down,rush_yds_before_contact,rush_yds_bc_per_rush,rush_yac,rush_yac_per_rush,rush_broken_tackles,rush_broken_tackles_per_rush,week
+Tony Jones,RB,NO,12,34,2,4.0,12,1.0,22,1.8,0,0.0,2
+Taysom Hill,QB,NO,9,75,0,5.0,36,4.0,39,4.3,2,4.5,2
+Jamaal Williams,RB,NO,9,29,0,1.0,14,1.6,15,1.7,1,9.0,2
+Derek Carr,QB,NO,3,-4,0,0.0,-4,-1.3,0,0.0,0,0.0,2

@@ -1,8 +1,8 @@
-name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
-Jakobi Meyers,WR,LV,10,9,81,2,5.0,64,7.1,17,1.9,6.9,0,0.0,0,0.0,0,140.0
-Davante Adams,WR,LV,9,6,66,0,4.0,63,10.5,3,0.5,10.6,0,0.0,0,0.0,0,88.2
-Josh Jacobs,RB,LV,3,2,23,0,1.0,-5,-2.5,28,14.0,-1.0,1,2.0,0,0.0,0,89.6
-DeAndre Carter,WR,LV,1,1,5,0,0.0,-2,-2.0,7,7.0,-2.0,0,0.0,0,0.0,0,87.5
-Zamir White,RB,LV,1,1,5,0,0.0,-1,-1.0,6,6.0,-1.0,0,0.0,0,0.0,0,87.5
-Austin Hooper,TE,LV,1,1,20,0,1.0,19,19.0,1,1.0,19.0,0,0.0,0,0.0,0,118.7
-Ameer Abdullah,RB,LV,1,0,0,0,0.0,0,0.0,0,0.0,6.0,0,0.0,0,0.0,1,0.0
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating,week
+Jakobi Meyers,WR,LV,10,9,81,2,5.0,64,7.1,17,1.9,6.9,0,0.0,0,0.0,0,140.0,1
+Davante Adams,WR,LV,9,6,66,0,4.0,63,10.5,3,0.5,10.6,0,0.0,0,0.0,0,88.2,1
+Josh Jacobs,RB,LV,3,2,23,0,1.0,-5,-2.5,28,14.0,-1.0,1,2.0,0,0.0,0,89.6,1
+DeAndre Carter,WR,LV,1,1,5,0,0.0,-2,-2.0,7,7.0,-2.0,0,0.0,0,0.0,0,87.5,1
+Zamir White,RB,LV,1,1,5,0,0.0,-1,-1.0,6,6.0,-1.0,0,0.0,0,0.0,0,87.5,1
+Austin Hooper,TE,LV,1,1,20,0,1.0,19,19.0,1,1.0,19.0,0,0.0,0,0.0,0,118.7,1
+Ameer Abdullah,RB,LV,1,0,0,0,0.0,0,0.0,0,0.0,6.0,0,0.0,0,0.0,1,0.0,1

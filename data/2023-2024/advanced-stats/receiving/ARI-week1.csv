@@ -1,8 +1,8 @@
-name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
-Zach Ertz,TE,ARI,10,6,21,0,1.0,15,2.5,6,1.0,5.6,0,0.0,0,0.0,0,64.6
-James Conner,RB,ARI,5,5,8,0,1.0,-6,-1.2,14,2.8,-1.2,1,5.0,0,0.0,0,79.2
-Marquise Brown,WR,ARI,5,3,28,0,3.0,28,9.3,0,0.0,9.6,0,0.0,0,0.0,0,75.4
-Rondale Moore,WR,ARI,3,3,33,0,1.0,8,2.7,25,8.3,2.7,0,0.0,0,0.0,0,112.5
-Trey McBride,TE,ARI,2,2,23,0,2.0,14,7.0,9,4.5,7.0,0,0.0,0,0.0,0,114.6
-Michael Wilson,WR,ARI,4,2,19,0,1.0,20,10.0,-1,-0.5,16.0,0,0.0,0,0.0,0,63.5
-Zach Pascal,WR,ARI,1,0,0,0,0.0,0,0.0,0,0.0,8.0,0,0.0,0,0.0,0,39.6
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating,week
+Zach Ertz,TE,ARI,10,6,21,0,1.0,15,2.5,6,1.0,5.6,0,0.0,0,0.0,0,64.6,1
+James Conner,RB,ARI,5,5,8,0,1.0,-6,-1.2,14,2.8,-1.2,1,5.0,0,0.0,0,79.2,1
+Marquise Brown,WR,ARI,5,3,28,0,3.0,28,9.3,0,0.0,9.6,0,0.0,0,0.0,0,75.4,1
+Rondale Moore,WR,ARI,3,3,33,0,1.0,8,2.7,25,8.3,2.7,0,0.0,0,0.0,0,112.5,1
+Trey McBride,TE,ARI,2,2,23,0,2.0,14,7.0,9,4.5,7.0,0,0.0,0,0.0,0,114.6,1
+Michael Wilson,WR,ARI,4,2,19,0,1.0,20,10.0,-1,-0.5,16.0,0,0.0,0,0.0,0,63.5,1
+Zach Pascal,WR,ARI,1,0,0,0,0.0,0,0.0,0,0.0,8.0,0,0.0,0,0.0,0,39.6,1

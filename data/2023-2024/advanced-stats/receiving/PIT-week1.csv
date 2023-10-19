@@ -1,10 +1,10 @@
-name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
-Calvin Austin,WR,PIT,6,6,37,0,1.0,21,3.5,16,2.7,3.5,0,0.0,0,0.0,0,92.4
-George Pickens,WR,PIT,7,5,36,0,1.0,26,5.2,10,2.0,12.1,0,0.0,0,0.0,0,83.0
-Allen Robinson,WR,PIT,8,5,64,0,2.0,38,7.6,26,5.2,7.1,0,0.0,0,0.0,0,87.5
-Jaylen Warren,RB,PIT,6,5,12,0,1.0,-10,-2.0,22,4.4,-1.5,3,1.7,1,0.16,0,79.2
-Diontae Johnson,WR,PIT,6,3,48,0,2.0,21,7.0,27,9.0,13.0,0,0.0,0,0.0,1,37.5
-Najee Harris,RB,PIT,2,2,2,0,0.0,0,0.0,2,1.0,0.0,0,0.0,0,0.0,0,79.2
-Connor Heyward,TE,PIT,4,2,19,0,0.0,19,9.5,0,0.0,14.3,0,0.0,0,0.0,1,24.0
-Anthony McFarland,RB,PIT,2,2,11,0,1.0,4,2.0,7,3.5,2.0,0,0.0,0,0.0,0,89.6
-Pat Freiermuth,TE,PIT,4,1,3,1,1.0,3,3.0,0,0.0,8.5,0,0.0,0,0.0,0,79.2
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating,week
+Calvin Austin,WR,PIT,6,6,37,0,1.0,21,3.5,16,2.7,3.5,0,0.0,0,0.0,0,92.4,1
+George Pickens,WR,PIT,7,5,36,0,1.0,26,5.2,10,2.0,12.1,0,0.0,0,0.0,0,83.0,1
+Allen Robinson,WR,PIT,8,5,64,0,2.0,38,7.6,26,5.2,7.1,0,0.0,0,0.0,0,87.5,1
+Jaylen Warren,RB,PIT,6,5,12,0,1.0,-10,-2.0,22,4.4,-1.5,3,1.7,1,0.16,0,79.2,1
+Diontae Johnson,WR,PIT,6,3,48,0,2.0,21,7.0,27,9.0,13.0,0,0.0,0,0.0,1,37.5,1
+Najee Harris,RB,PIT,2,2,2,0,0.0,0,0.0,2,1.0,0.0,0,0.0,0,0.0,0,79.2,1
+Connor Heyward,TE,PIT,4,2,19,0,0.0,19,9.5,0,0.0,14.3,0,0.0,0,0.0,1,24.0,1
+Anthony McFarland,RB,PIT,2,2,11,0,1.0,4,2.0,7,3.5,2.0,0,0.0,0,0.0,0,89.6,1
+Pat Freiermuth,TE,PIT,4,1,3,1,1.0,3,3.0,0,0.0,8.5,0,0.0,0,0.0,0,79.2,1

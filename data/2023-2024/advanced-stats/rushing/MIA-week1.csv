@@ -1,5 +1,5 @@
-name,pos,team,rush_att,rush_yds,rush_td,rush_first_down,rush_yds_before_contact,rush_yds_bc_per_rush,rush_yac,rush_yac_per_rush,rush_broken_tackles,rush_broken_tackles_per_rush
-Raheem Mostert,RB,MIA,10,37,1,3.0,25,2.5,12,1.2,2,5.0
-Tua Tagovailoa,QB,MIA,5,5,0,1.0,5,1.0,0,0.0,0,0.0
-Salvon Ahmed,RB,MIA,3,11,0,0.0,3,1.0,8,2.7,1,3.0
-Erik Ezukanma,WR,MIA,2,17,0,1.0,11,5.5,6,3.0,0,0.0
+name,pos,team,rush_att,rush_yds,rush_td,rush_first_down,rush_yds_before_contact,rush_yds_bc_per_rush,rush_yac,rush_yac_per_rush,rush_broken_tackles,rush_broken_tackles_per_rush,week
+Raheem Mostert,RB,MIA,10,37,1,3.0,25,2.5,12,1.2,2,5.0,1
+Tua Tagovailoa,QB,MIA,5,5,0,1.0,5,1.0,0,0.0,0,0.0,1
+Salvon Ahmed,RB,MIA,3,11,0,0.0,3,1.0,8,2.7,1,3.0,1
+Erik Ezukanma,WR,MIA,2,17,0,1.0,11,5.5,6,3.0,0,0.0,1

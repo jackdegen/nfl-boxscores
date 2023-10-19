@@ -1,7 +1,7 @@
-name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
-Calvin Ridley,WR,JAX,11,8,101,1,4.0,65,8.1,36,4.5,9.1,0,0.0,0,0.0,0,131.2
-Evan Engram,TE,JAX,5,5,49,0,2.0,26,5.2,23,4.6,5.2,0,0.0,0,0.0,0,107.5
-Travis Etienne,RB,JAX,5,5,27,0,0.0,1,0.2,26,5.2,0.2,1,5.0,0,0.0,0,89.2
-Zay Jones,WR,JAX,7,5,55,1,4.0,53,10.6,2,0.4,10.6,0,0.0,0,0.0,0,133.9
-Christian Kirk,WR,JAX,3,1,9,0,0.0,9,9.0,0,0.0,6.7,0,0.0,0,0.0,0,42.4
-Tank Bigsby,RB,JAX,1,0,0,0,0.0,0,0.0,0,0.0,1.0,0,0.0,1,1.0,1,0.0
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating,week
+Calvin Ridley,WR,JAX,11,8,101,1,4.0,65,8.1,36,4.5,9.1,0,0.0,0,0.0,0,131.2,1
+Evan Engram,TE,JAX,5,5,49,0,2.0,26,5.2,23,4.6,5.2,0,0.0,0,0.0,0,107.5,1
+Travis Etienne,RB,JAX,5,5,27,0,0.0,1,0.2,26,5.2,0.2,1,5.0,0,0.0,0,89.2,1
+Zay Jones,WR,JAX,7,5,55,1,4.0,53,10.6,2,0.4,10.6,0,0.0,0,0.0,0,133.9,1
+Christian Kirk,WR,JAX,3,1,9,0,0.0,9,9.0,0,0.0,6.7,0,0.0,0,0.0,0,42.4,1
+Tank Bigsby,RB,JAX,1,0,0,0,0.0,0,0.0,0,0.0,1.0,0,0.0,1,1.0,1,0.0,1

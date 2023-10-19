@@ -1,4 +1,4 @@
-name,pos,team,rush_att,rush_yds,rush_td,rush_first_down,rush_yds_before_contact,rush_yds_bc_per_rush,rush_yac,rush_yac_per_rush,rush_broken_tackles,rush_broken_tackles_per_rush
-Tyler Allgeier,RB,ATL,15,75,2,5,17,1.1,58,3.9,6,2.5
-Bijan Robinson,RB,ATL,10,56,0,2,30,3.0,26,2.6,1,10.0
-Desmond Ridder,QB,ATL,1,-1,0,0,-1,-1.0,0,0.0,0,0.0
+name,pos,team,rush_att,rush_yds,rush_td,rush_first_down,rush_yds_before_contact,rush_yds_bc_per_rush,rush_yac,rush_yac_per_rush,rush_broken_tackles,rush_broken_tackles_per_rush,week
+Tyler Allgeier,RB,ATL,15,75,2,5,17,1.1,58,3.9,6,2.5,1
+Bijan Robinson,RB,ATL,10,56,0,2,30,3.0,26,2.6,1,10.0,1
+Desmond Ridder,QB,ATL,1,-1,0,0,-1,-1.0,0,0.0,0,0.0,1

@@ -1,10 +1,10 @@
-name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
-Keenan Allen,WR,LAC,10,8,111,2,5.0,90,11.3,21,2.6,10.7,0,0.0,0,0.0,0,152.5
-Mike Williams,WR,LAC,13,8,83,0,5.0,37,4.6,46,5.8,12.3,1,8.0,0,0.0,0,80.0
-Gerald Everett,TE,LAC,3,3,47,0,2.0,20,6.7,27,9.0,6.7,2,1.5,0,0.0,0,118.7
-Josh Palmer,WR,LAC,5,3,13,0,0.0,12,4.0,1,0.3,9.0,0,0.0,0,0.0,0,64.6
-Elijah Dotson,RB,LAC,2,2,13,0,0.0,-1,-0.5,14,7.0,-0.5,0,0.0,0,0.0,0,93.7
-Quentin Johnston,WR,LAC,2,1,7,0,0.0,7,7.0,0,0.0,9.5,0,0.0,0,0.0,0,58.3
-Donald Parham,TE,LAC,2,1,7,0,1.0,6,6.0,1,1.0,15.5,0,0.0,0,0.0,0,58.3
-Stone Smartt,TE,LAC,1,1,24,0,1.0,21,21.0,3,3.0,21.0,0,0.0,0,0.0,0,118.7
-Joshua Kelley,RB,LAC,1,0,0,0,0.0,0,0.0,0,0.0,4.0,0,0.0,1,1.0,0,39.6
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating,week
+Keenan Allen,WR,LAC,10,8,111,2,5.0,90,11.3,21,2.6,10.7,0,0.0,0,0.0,0,152.5,2
+Mike Williams,WR,LAC,13,8,83,0,5.0,37,4.6,46,5.8,12.3,1,8.0,0,0.0,0,80.0,2
+Gerald Everett,TE,LAC,3,3,47,0,2.0,20,6.7,27,9.0,6.7,2,1.5,0,0.0,0,118.7,2
+Josh Palmer,WR,LAC,5,3,13,0,0.0,12,4.0,1,0.3,9.0,0,0.0,0,0.0,0,64.6,2
+Elijah Dotson,RB,LAC,2,2,13,0,0.0,-1,-0.5,14,7.0,-0.5,0,0.0,0,0.0,0,93.7,2
+Quentin Johnston,WR,LAC,2,1,7,0,0.0,7,7.0,0,0.0,9.5,0,0.0,0,0.0,0,58.3,2
+Donald Parham,TE,LAC,2,1,7,0,1.0,6,6.0,1,1.0,15.5,0,0.0,0,0.0,0,58.3,2
+Stone Smartt,TE,LAC,1,1,24,0,1.0,21,21.0,3,3.0,21.0,0,0.0,0,0.0,0,118.7,2
+Joshua Kelley,RB,LAC,1,0,0,0,0.0,0,0.0,0,0.0,4.0,0,0.0,1,1.0,0,39.6,2

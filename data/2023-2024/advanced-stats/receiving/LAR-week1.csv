@@ -1,8 +1,8 @@
-name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
-Puka Nacua,WR,LAR,15,10,119,0,6.0,77,7.7,42,4.2,9.6,1,10.0,1,0.06,0,90.7
-Tutu Atwell,WR,LAR,8,6,119,0,6.0,84,14.0,35,5.8,15.8,0,0.0,0,0.0,0,116.7
-Van Jefferson,WR,LAR,5,4,24,0,1.0,23,5.8,1,0.3,11.4,1,4.0,1,0.2,0,86.7
-Tyler Higbee,TE,LAR,3,3,49,0,3.0,37,12.3,12,4.0,12.3,0,0.0,0,0.0,0,118.7
-Brycen Hopkins,TE,LAR,2,1,21,0,1.0,10,10.0,11,11.0,5.5,0,0.0,0,0.0,0,87.5
-Ben Skowronek,WR,LAR,2,0,0,0,0.0,0,0.0,0,0.0,9.0,0,0.0,0,0.0,0,39.6
-Kyren Williams,RB,LAR,2,0,2,0,0.0,2,0.0,0,0.0,12.0,0,0.0,0,0.0,0,39.6
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating,week
+Puka Nacua,WR,LAR,15,10,119,0,6.0,77,7.7,42,4.2,9.6,1,10.0,1,0.06,0,90.7,1
+Tutu Atwell,WR,LAR,8,6,119,0,6.0,84,14.0,35,5.8,15.8,0,0.0,0,0.0,0,116.7,1
+Van Jefferson,WR,LAR,5,4,24,0,1.0,23,5.8,1,0.3,11.4,1,4.0,1,0.2,0,86.7,1
+Tyler Higbee,TE,LAR,3,3,49,0,3.0,37,12.3,12,4.0,12.3,0,0.0,0,0.0,0,118.7,1
+Brycen Hopkins,TE,LAR,2,1,21,0,1.0,10,10.0,11,11.0,5.5,0,0.0,0,0.0,0,87.5,1
+Ben Skowronek,WR,LAR,2,0,0,0,0.0,0,0.0,0,0.0,9.0,0,0.0,0,0.0,0,39.6,1
+Kyren Williams,RB,LAR,2,0,2,0,0.0,2,0.0,0,0.0,12.0,0,0.0,0,0.0,0,39.6,1

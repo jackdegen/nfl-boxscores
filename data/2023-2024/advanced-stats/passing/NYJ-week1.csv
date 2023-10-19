@@ -1,3 +1,3 @@
-name,pos,team,pass_cmp,pass_att,pass_yds,pass_first_down,pass_first_down_pct,pass_target_yds,pass_tgt_yds_per_att,pass_air_yds,pass_air_yds_per_cmp,pass_air_yds_per_att,pass_yac,pass_yac_per_cmp,pass_drops,pass_drop_pct,pass_poor_throws,pass_poor_throw_pct,pass_sacked,pass_blitzed,pass_hurried,pass_hits,pass_pressured,pass_pressured_pct,rush_scrambles,rush_scrambles_yds_per_att
-Zach Wilson,QB,NYJ,14,21,140,7.0,0.3,96,4.6,48,3.4,2.3,92,6.6,0,0.0,3,0.167,2,3,3,3,8,0.333,1,6.0
-Aaron Rodgers,QB,NYJ,0,1,0,0.0,0.0,17,17.0,0,0.0,0.0,0,0.0,0,0.0,0,0.0,1,0,1,1,3,1.5,0,0.0
+name,pos,team,pass_cmp,pass_att,pass_yds,pass_first_down,pass_first_down_pct,pass_target_yds,pass_tgt_yds_per_att,pass_air_yds,pass_air_yds_per_cmp,pass_air_yds_per_att,pass_yac,pass_yac_per_cmp,pass_drops,pass_drop_pct,pass_poor_throws,pass_poor_throw_pct,pass_sacked,pass_blitzed,pass_hurried,pass_hits,pass_pressured,pass_pressured_pct,rush_scrambles,rush_scrambles_yds_per_att,week
+Zach Wilson,QB,NYJ,14,21,140,7.0,0.3,96,4.6,48,3.4,2.3,92,6.6,0,0.0,3,0.167,2,3,3,3,8,0.333,1,6.0,1
+Aaron Rodgers,QB,NYJ,0,1,0,0.0,0.0,17,17.0,0,0.0,0.0,0,0.0,0,0.0,0,0.0,1,0,1,1,3,1.5,0,0.0,1

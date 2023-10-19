@@ -1,10 +1,10 @@
-name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
-Nick Chubb,RB,CLE,4,4,21,0,1.0,1,0.3,20,5.0,0.3,0,0.0,0,0.0,0,88.5
-Amari Cooper,WR,CLE,7,3,37,0,2.0,36,12.0,1,0.3,15.4,0,0.0,0,0.0,0,59.8
-Elijah Moore,WR,CLE,7,3,43,0,2.0,36,12.0,7,2.3,9.1,0,0.0,1,0.14,1,23.8
-Harrison Bryant,TE,CLE,2,2,5,1,1.0,4,2.0,1,0.5,2.0,0,0.0,0,0.0,0,118.7
-David Njoku,TE,CLE,3,2,24,0,1.0,2,1.0,22,11.0,2.3,0,0.0,0,0.0,0,91.0
-Jordan Akins,TE,CLE,1,1,12,0,1.0,1,1.0,11,11.0,1.0,1,1.0,0,0.0,0,116.7
-Donovan Peoples-Jones,WR,CLE,2,1,12,0,1.0,12,12.0,0,0.0,15.5,0,0.0,0,0.0,0,68.7
-David Bell,WR,CLE,1,0,0,0,0.0,0,0.0,0,0.0,13.0,0,0.0,1,1.0,0,39.6
-Marquise Goodwin,WR,CLE,2,0,0,0,0.0,0,0.0,0,0.0,43.0,0,0.0,1,0.5,0,39.6
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating,week
+Nick Chubb,RB,CLE,4,4,21,0,1.0,1,0.3,20,5.0,0.3,0,0.0,0,0.0,0,88.5,1
+Amari Cooper,WR,CLE,7,3,37,0,2.0,36,12.0,1,0.3,15.4,0,0.0,0,0.0,0,59.8,1
+Elijah Moore,WR,CLE,7,3,43,0,2.0,36,12.0,7,2.3,9.1,0,0.0,1,0.14,1,23.8,1
+Harrison Bryant,TE,CLE,2,2,5,1,1.0,4,2.0,1,0.5,2.0,0,0.0,0,0.0,0,118.7,1
+David Njoku,TE,CLE,3,2,24,0,1.0,2,1.0,22,11.0,2.3,0,0.0,0,0.0,0,91.0,1
+Jordan Akins,TE,CLE,1,1,12,0,1.0,1,1.0,11,11.0,1.0,1,1.0,0,0.0,0,116.7,1
+Donovan Peoples-Jones,WR,CLE,2,1,12,0,1.0,12,12.0,0,0.0,15.5,0,0.0,0,0.0,0,68.7,1
+David Bell,WR,CLE,1,0,0,0,0.0,0,0.0,0,0.0,13.0,0,0.0,1,1.0,0,39.6,1
+Marquise Goodwin,WR,CLE,2,0,0,0,0.0,0,0.0,0,0.0,43.0,0,0.0,1,0.5,0,39.6,1

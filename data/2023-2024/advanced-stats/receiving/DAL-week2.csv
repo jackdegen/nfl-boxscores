@@ -1,10 +1,10 @@
-name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
-CeeDee Lamb,WR,DAL,13,11,143,0,7.0,80,7.3,63,5.7,7.2,1,11.0,0,0.0,0,112.5
-Tony Pollard,RB,DAL,8,7,37,0,2.0,5,0.7,32,4.6,0.9,1,7.0,0,0.0,0,85.9
-Jake Ferguson,TE,DAL,4,3,11,1,2.0,-2,-0.7,13,4.3,0.3,0,0.0,0,0.0,0,116.7
-Jalen Tolbert,WR,DAL,4,3,18,0,1.0,9,3.0,9,3.0,13.0,1,3.0,0,0.0,0,83.3
-Deuce Vaughn,RB,DAL,3,3,16,0,1.0,0,0.0,16,5.3,0.0,0,0.0,0,0.0,0,88.9
-Michael Gallup,WR,DAL,2,1,3,0,0.0,3,3.0,0,0.0,9.0,0,0.0,0,0.0,0,56.2
-Rico Dowdle,RB,DAL,1,1,17,0,1.0,-5,-5.0,22,22.0,-5.0,0,0.0,0,0.0,0,118.7
-Luke Schoonmaker,TE,DAL,1,1,1,1,1.0,1,1.0,0,0.0,1.0,0,0.0,0,0.0,0,118.7
-KaVontae Turpin,WR,DAL,1,1,9,0,1.0,3,3.0,6,6.0,3.0,0,0.0,0,0.0,0,104.2
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating,week
+CeeDee Lamb,WR,DAL,13,11,143,0,7.0,80,7.3,63,5.7,7.2,1,11.0,0,0.0,0,112.5,2
+Tony Pollard,RB,DAL,8,7,37,0,2.0,5,0.7,32,4.6,0.9,1,7.0,0,0.0,0,85.9,2
+Jake Ferguson,TE,DAL,4,3,11,1,2.0,-2,-0.7,13,4.3,0.3,0,0.0,0,0.0,0,116.7,2
+Jalen Tolbert,WR,DAL,4,3,18,0,1.0,9,3.0,9,3.0,13.0,1,3.0,0,0.0,0,83.3,2
+Deuce Vaughn,RB,DAL,3,3,16,0,1.0,0,0.0,16,5.3,0.0,0,0.0,0,0.0,0,88.9,2
+Michael Gallup,WR,DAL,2,1,3,0,0.0,3,3.0,0,0.0,9.0,0,0.0,0,0.0,0,56.2,2
+Rico Dowdle,RB,DAL,1,1,17,0,1.0,-5,-5.0,22,22.0,-5.0,0,0.0,0,0.0,0,118.7,2
+Luke Schoonmaker,TE,DAL,1,1,1,1,1.0,1,1.0,0,0.0,1.0,0,0.0,0,0.0,0,118.7,2
+KaVontae Turpin,WR,DAL,1,1,9,0,1.0,3,3.0,6,6.0,3.0,0,0.0,0,0.0,0,104.2,2

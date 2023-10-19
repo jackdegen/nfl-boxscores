@@ -1,8 +1,8 @@
-name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating
-Jahan Dotson,WR,WAS,7,5,40,0,3.0,37,7.4,3,0.6,9.1,0,0.0,0,0.0,1,45.8
-Curtis Samuel,WR,WAS,5,5,54,0,2.0,27,5.4,27,5.4,5.4,1,5.0,0,0.0,0,111.7
-Logan Thomas,TE,WAS,8,4,43,0,1.0,31,7.8,12,3.0,5.9,0,0.0,1,0.12,0,66.1
-Terry McLaurin,WR,WAS,4,2,31,0,2.0,20,10.0,11,5.5,11.0,1,2.0,0,0.0,0,76.0
-Antonio Gibson,RB,WAS,1,1,10,0,0.0,-4,-4.0,14,14.0,-4.0,0,0.0,0,0.0,0,108.3
-Brian Robinson,RB,WAS,2,1,7,1,1.0,7,7.0,0,0.0,1.5,0,0.0,1,0.5,0,97.9
-Cole Turner,TE,WAS,2,1,17,0,1.0,16,16.0,1,1.0,15.0,0,0.0,0,0.0,0,79.2
+name,pos,team,targets,rec,rec_yds,rec_td,rec_first_down,rec_air_yds,rec_air_yds_per_rec,rec_yac,rec_yac_per_rec,rec_adot,rec_broken_tackles,rec_broken_tackles_per_rec,rec_drops,rec_drop_pct,rec_target_int,rec_pass_rating,week
+Jahan Dotson,WR,WAS,7,5,40,0,3.0,37,7.4,3,0.6,9.1,0,0.0,0,0.0,1,45.8,1
+Curtis Samuel,WR,WAS,5,5,54,0,2.0,27,5.4,27,5.4,5.4,1,5.0,0,0.0,0,111.7,1
+Logan Thomas,TE,WAS,8,4,43,0,1.0,31,7.8,12,3.0,5.9,0,0.0,1,0.12,0,66.1,1
+Terry McLaurin,WR,WAS,4,2,31,0,2.0,20,10.0,11,5.5,11.0,1,2.0,0,0.0,0,76.0,1
+Antonio Gibson,RB,WAS,1,1,10,0,0.0,-4,-4.0,14,14.0,-4.0,0,0.0,0,0.0,0,108.3,1
+Brian Robinson,RB,WAS,2,1,7,1,1.0,7,7.0,0,0.0,1.5,0,0.0,1,0.5,0,97.9,1
+Cole Turner,TE,WAS,2,1,17,0,1.0,16,16.0,1,1.0,15.0,0,0.0,0,0.0,0,79.2,1
