@@ -45,13 +45,16 @@ class Scraper:
 
         # NFL changed number of weeks in 2022
         num_weeks = 18 if self.year >= 2022 else 17
+
+        # Only works correctly if updating every week, better if can figure out way to determine what week it is as second part of range
+        last_week_saved = num_weeks if self.year != 2023 else self.filing.get_last_week_saved()
         
         # Going to start with just regular season
+        # Needs at least a day for advanced stats to load after MNF otherwise scraper issues
         self.week_pages = {
             week: week_url(self.year, week)
             for week in range(1,num_weeks+1)
-        } if self.year != 2023 else {week: week_url(self.year, week) for week in range(1,3)} # Manual for now -> Need function to determine what week it is
-
+        } if self.year != 2023 else {week: week_url(self.year, week) for week in range(6,7)} # range(last_week_saved+1, last_week_saved+2)
 
         ff_options = Options()
         ff_options.add_argument('--headless')
@@ -64,6 +67,16 @@ class Scraper:
         """
         clean_ = ' '.join(name.split(' ')[:2]).replace('.', '')
         return standardize_name(clean_)
+
+    # parse_defensive_stat = lambda stat_, stat_val: int(stat_val) if stat_ in DEFENSIVE_TD_COLUMNS[1:] else standardize_initials(stat_val)
+    def parse_defensive_stat(self, stat: str, stat_val: str):
+        if stat == 'team':
+            return standardize_initials(stat_val)
+
+        if not len(stat_val) or stat_val == ' ':
+            return 0
+
+        return int(stat_val)
 
     def parse_adv_stat(self, stat: str, stat_val: str):
         if stat == 'team':
@@ -97,7 +110,6 @@ class Scraper:
             self.driver.get(game_url)
             game_soup = BeautifulSoup(self.driver.page_source, 'html.parser')
             
-    
             stat_table = game_soup.find_all('table', id='player_offense')[0]
 
             scorebox = game_soup.find_all('div', class_='scorebox')[0]
@@ -176,11 +188,11 @@ class Scraper:
                 def_stats['pts_allowed'] = get_opp_score(team)
             
             def_table = game_soup.find_all('table', id='player_defense')[0]
-            parse_defensive_stat = lambda stat_, stat_val: int(stat_val) if stat_ in DEFENSIVE_TD_COLUMNS[1:] else standardize_initials(stat_val)
+            # parse_defensive_stat = lambda stat_, stat_val: int(stat_val) if stat_ in DEFENSIVE_TD_COLUMNS[1:] else standardize_initials(stat_val)
             
             # ('team', 'def_int_td', 'fumbles_rec_td')
             def_table_data = {
-                stat: [parse_defensive_stat(stat, td.get_text()) for td in def_table.find_all('td', attrs={'data-stat': stat})]
+                stat: [self.parse_defensive_stat(stat, td.get_text()) for td in def_table.find_all('td', attrs={'data-stat': stat})]
                 for stat in DEFENSIVE_TD_COLUMNS
             }
             
@@ -390,6 +402,21 @@ class Scraper:
                        .assign(name=lambda df_: df_.name.str.strip()) # Whitespace issues
                       )
 
+            # Issues with current setup --> No 2pt conversions available from boxscore data, so also not applied
+
+            # All bonuses worth 3
+            dk_bonuses = {
+                'pass_yds': 300.0,
+                'rush_yds': 100.0,
+                'rec_yds': 100.0
+            }
+
+            fpts_df['bonus'] = 0.0
+            for stat, thresh in dk_bonuses.items():
+                fpts_df.loc[fpts_df[stat] >= thresh, 'bonus'] += 3.0
+
+            fpts_df['fpts'] += fpts_df['bonus']
+
             # File after getting position from Pro-Football-Reference
             self.filing.save_boxscore(fpts_df, away_team, home_team)
 
@@ -420,13 +447,18 @@ class Scraper:
                 }
 
                 adv_df = pd.DataFrame(adv_data)
+                adv_df['week'] = week
+                
                 # Save as individual team dataframe
                 for team_ in adv_df['team'].drop_duplicates():
                     team_adv_df = adv_df.loc[adv_df['team'] == team_]
                     # Parameters: df, stat_category, team, week
                     self.filing.save_advanced_stats(team_adv_df, category, team_, week)
             
-            
+
+            # At most 16 games in one week
+            # Cant have more than 20 requests in 1 minute
+            # time.sleep(n) --> n = 4, 5 to be safe
             time.sleep(5)
         
 
@@ -439,16 +471,6 @@ class Scraper:
         """
 
         print(f'Beginning scraping for {self.season} season\n')
-
-        # Dont want to scrape data already saved (assuming previous data formatted correctly)
-        # This will not get games if whole week of games not complete (only do on tuesday-wednesday)
-        # if self.year == 2023:
-        #     # .../../team1-team2-week#.csv --> Want just #
-        #     extract_week = lambda fname: int(fname.split('/')[-1].split('.')[0].split('-')[2].replace('week', ''))
-        #     boxscore_weeks = set([ extract_week(file) for file in glob.glob(self.filing.boxscores_dir + '/*.csv') ])
-
-        #     self.week_pages = { week: page for week, page in self.week_pages.items() if week not in boxscore_weeks }
-
 
         if not len(self.week_pages):
             print(f'Boxscores for season {self.season} already up to date\n')
