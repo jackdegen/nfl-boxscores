@@ -47,7 +47,7 @@ class Scraper:
         num_weeks = 18 if self.year >= 2022 else 17
 
         # Only works correctly if updating every week, better if can figure out way to determine what week it is as second part of range
-        last_week_saved = num_weeks if self.year != 2023 else self.filing.get_last_week_saved()
+        # last_week_saved = num_weeks if self.year != 2023 else self.filing.get_last_week_saved()
         
         # Going to start with just regular season
         # Needs at least a day for advanced stats to load after MNF otherwise scraper issues

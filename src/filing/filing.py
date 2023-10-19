@@ -5,6 +5,7 @@ import pandas as pd
 
 class Filing:
     # Class to take care of filing each dataframe + additional functionality later on
+    # Site agnostic
     def __init__(self, season: str):
 
         self.season = season
@@ -35,6 +36,14 @@ class Filing:
         Standardizes name across PFR, FD, DK
         """
         return ' '.join(name.split(' ')[:2]).replace('.', '')
+
+    # Returns the last week of data saved
+    def get_last_week_saved(self):
+        # Only to be used with current year
+        # File format: path/{team}-week#.csv --> #.csv --> #
+        extract_week = lambda fname: int(fname.split('week')[-1].split('.')[0])
+        return max(set([extract_week(file) for file in glob.glob(self.snap_counts_dir + '/*.csv')]))
+        
 
 
     def save_boxscore(self, df: pd.DataFrame, away: str, home: str) -> None:
@@ -102,7 +111,6 @@ class Filing:
 
         for category in ('passing', 'rushing', 'receiving'):
 
-            
             cat_df = pd.concat([
                 pd.read_csv(file) for file in glob.glob(self.advanced_stats_dir + f'/{category}/*.csv')
             ])
@@ -135,6 +143,21 @@ class Filing:
         combined.to_csv(self.combined_fpath, index=False)
 
         return combined
+
+
+    def combined_boxscores(self):
+
+        return (pd
+                .concat([ pd.read_csv(file) for file in glob.glob(self.boxscores_dir + '/*.csv') ])
+                .reset_index(drop=True)
+               )
+
+    def combined_snapcounts(self):
+
+        return (pd
+                .concat([ pd.read_csv(file) for file in glob.glob(self.snap_counts_dir + '/*.csv') ])
+                .reset_index(drop=True)
+               )
 
 
         
