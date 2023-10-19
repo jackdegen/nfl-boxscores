@@ -2,7 +2,7 @@
 # folder structure, keeping contest-files public so positions can be added
 boxscores/
 *-raw.csv # refers to bigger nfl data files
-data/
+data/*
 
 
 # Hiding past performance optimizer for now
